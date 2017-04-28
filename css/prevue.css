@@ -1,3 +1,45 @@
+/**
+ * Main styles
+ * Zach Hall, 2017
+ */
+/* import scanlines */
+/* REGULAR SCANLINES SETTINGS */
+/* MOVING SCANLINE SETTINGS */
+/* MIXINS */
+/* CSS .scanlines CLASS */
+.scanlines {
+  overflow: hidden; }
+  .scanlines:before, .scanlines:after {
+    display: block;
+    pointer-events: none;
+    content: '';
+    position: absolute; }
+  .scanlines:before {
+    width: 100%;
+    height: 2px;
+    z-index: 11;
+    background: rgba(0, 0, 0, 0.18);
+    opacity: 0.75;
+    animation: scanline 6s linear infinite; }
+  .scanlines:after {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+    background: linear-gradient(to bottom, transparent 50%, rgba(0, 0, 0, 0.18) 51%);
+    background-size: 100% 4px;
+    animation: scanlines 1s steps(60) infinite; }
+
+/* ANIMATE UNIQUE SCANLINE */
+@keyframes scanline {
+  0% {
+    transform: translate3d(0, 200000%, 0); } }
+
+@keyframes scanlines {
+  0% {
+    background-position: 0 50%; } }
+
 @font-face {
   font-family: PrevueGrid;
   src: url(fonts/PrevueGrid.ttf); }
