@@ -42,28 +42,28 @@ $(document).ready(() => {
                 var listing2 = $(getFirstListing(listings, curTsStart+1));
                 var listing3 = $(getFirstListing(listings, curTsStart+2));
                 
-                var showOne = listing1 ? true : false;
+                if (!listing1) {
+                    listing1 = $('<listing>').html('Off-Air');
+                }
                 var showTwo = listing2 ? true : false;
                 if (listing1) showTwo = listing2 ? listing1.attr('timeslot') !== listing2.attr('timeslot') : false;
                 var showThree = listing3 ? true : false;
                 if (listing2) showThree = listing3 ? listing2.attr('timeslot') !== listing3.attr('timeslot') : false;
                 
-                var firstOne = !showOne ? "Off-Air" : listing1[0].innerHTML;
-                
                 if (showTwo) {
-                    channelRow.append($('<td>').addClass('listing').text(firstOne));
+                    channelRow.append(generateListing(listing1));
                     if (!showThree) {
-                        channelRow.append($('<td>').addClass('listing').attr('colspan', 2).text(listing2[0].innerHTML));
+                        channelRow.append(generateListing(listing2, 2));
                     } else {
-                        channelRow.append($('<td>').addClass('listing').text(listing2[0].innerHTML));
-                        channelRow.append($('<td>').addClass('listing').text(listing3[0].innerHTML));
+                        channelRow.append(generateListing(listing2));
+                        channelRow.append(generateListing(listing3));
                     }
                 } else {
                     if (!showThree) {
-                        channelRow.append($('<td>').addClass('listing').attr('colspan', 3).text(firstOne));
+                        channelRow.append(generateListing(listing1, 3));
                     } else {
-                        channelRow.append($('<td>').addClass('listing').attr('colspan', 2).text(firstOne));
-                        channelRow.append($('<td>').addClass('listing').text(listing3[0].innerHTML));
+                        channelRow.append(generateListing(listing1, 2));
+                        channelRow.append(generateListing(listing3));
                     }
                 }
                 
@@ -72,6 +72,13 @@ $(document).ready(() => {
         }
     });
 });
+
+function generateListing(listing, colspan, timeslot) {
+    const html = $('<td>').addClass('listing').html(listing.html());
+    if (colspan) html.attr('colspan', colspan);
+    if (listing.attr('type') === 'movie') html.addClass('movie');
+    return html;
+}
 
 function getFirstListing(listings, timeslot) {
     var out;
