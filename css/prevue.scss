@@ -25,75 +25,30 @@ body {
         font-family: "PrevueGrid";
         font-size: 30px;
     }
-}
 
-.yellow, .time, .channel {
-    color: $yellow;
-}
-
-.realtime {
-    text-align: right;
-}
-
-.channel {
-    text-align: center;
-    padding-left: 2em;
-}
-
-/* boxes */
-th, td {
-    border: solid 5px;
-    border-top-color: $white;
-    border-left-color: $white;
-    border-bottom-color: $black;
-    border-right-color: $black;
-}
-
-th {
-    background-color: $light-blue;
-    width: 25%;
-}
-
-td {
-    background: $dark-blue;
-    vertical-align: top;
-
-    &.movie {
-        background: $blue-gradient;
+    .yellow, .time, .channel {
+        color: $yellow;
     }
 
-    &.summary {
-        background: $gray;
+    .about {
+        background: $black;
+        border: $white solid 5px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 1000;
+        padding: 10px;
+        width: 400px;
     }
 
-    &.notice {
-        background: $red-gradient;
+    #about-button {
+        position: absolute;
+        right: 10;
+        z-index: 1000;
     }
-}
-
-.continued-right {
-    -webkit-text-stroke: 0;
-    float: right;
-    vertical-align: middle;
 }
 
 /* page */
-.guide-container {
-    width: 850;
-    margin: 0;
-    padding: 0;
-}
-
-.screen {
-    position: absolute;
-    bottom: 100;
-    left: 155;
-    background-color: $black;
-    background-image: url('../img/backdrop.png');
-    background-position: 70px;
-    overflow: hidden;
-}
-
 .tv {
     position: absolute;
     width: 1200px;
@@ -105,42 +60,79 @@ td {
         width: 100%;
         pointer-events: none;
     }
-}
 
-.video-right {
-    position: absolute;
-    right: 169;
-    top: 120;
-    width:450;
-    height:360;
-}
+    .screen {
+        .video-right {
+            position: absolute;
+            right: 169;
+            top: 120;
+            width:450;
+            height:360;
+        }
 
-.video-left {
-    position: absolute;
-    top: 120;
-    left: 156;
-    width: 425;
-    height: 360;
-    text-align: center;
-    .text {
-        padding-left: 50px;
-        line-height: 1.8;
+        .video-left {
+            position: absolute;
+            top: 120;
+            left: 156;
+            width: 425;
+            height: 360;
+            text-align: center;
+            .text {
+                padding-left: 50px;
+                line-height: 1.8;
+            }
+        }
+
+        .guide-container {
+            position: absolute;
+            bottom: 100;
+            left: 155;
+            background-color: $black;
+            background-image: url('../img/backdrop.png');
+            background-position: 70px;
+            overflow: hidden;
+
+            .guide-table {
+                width: 850;
+                margin: 0;
+                padding: 0;
+
+                /* boxes */
+                th, td {
+                    border: solid 5px;
+                    border-top-color: $white;
+                    border-left-color: $white;
+                    border-bottom-color: $black;
+                    border-right-color: $black;
+                }
+
+                th {
+                    background-color: $light-blue;
+                    width: 25%;
+
+                    &.realtime { text-align: right; }
+                }
+
+                td {
+                    background: $dark-blue;
+                    vertical-align: top;
+
+                    &.movie { background: $blue-gradient; }
+                    &.summary { background: $gray; }
+                    &.notice { background: $red-gradient; }
+
+                    &.channel {
+                        text-align: center;
+                        padding-left: 2em;
+                    }
+
+                    .continued-right {
+                        -webkit-text-stroke: 0;
+                        float: right;
+                        vertical-align: middle;
+                    }
+                }
+            }
+        }
     }
-}
-
-.about {
-    background: $black;
-    border: $white solid 5px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: 1000;
-    padding: 10px;
-    width: 400px;
-}
-
-#about-button {
-    position: absolute;
-    right: 10;
-    z-index: 1000;
 }

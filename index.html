@@ -1,29 +1,22 @@
 <html>
 <head>
     <title>Prevue</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta name="author" content="Zach Hall"/>
+    <meta name="description" content="Simulator of a hotel television from the 1990's."/>
     <link href="css/prevue.css" rel="stylesheet" />
 </head>
 <body>
     <div class="tv">
         <img class="tv-mask" src="img/tv.png" />
-        <iframe class="video-right" src="https://www.youtube.com/embed/oemoqEuJdFE?&amp;controls=0&amp;showinfo=0&amp;autoplay=0" frameborder="0" allowfullscreen></iframe>
-        <div class="video-left">
-            <p class="text">HBO<br/>24 months $12.99 / mo.</p>
-            <p class="text">Sign up today!<br/>1-800-555-6489</p>
-        </div>
         <div class="screen">
-            <table class="guide-container" cellpadding="0" cellspacing="0">
-                <thead>
-                    <tr>
-                        <th class="realtime">realtime</th>
-                        <th class="time time-plus00"></th>
-                        <th class="time time-plus30"></th>
-                        <th class="time time-plus60"></th>
-                    </tr>
-                </thead>
-            </table>
-            <marquee direction="up" scrollamount="1" scrolldelay="50">
-                <table class="guide-container"  cellpadding="0" cellspacing="0">
+            <iframe class="video-right" src="https://www.youtube.com/embed/oemoqEuJdFE?&amp;controls=0&amp;showinfo=0&amp;autoplay=0" frameborder="0" allowfullscreen></iframe>
+            <div class="video-left">
+                <p class="text">HBO<br/>24 months $12.99 / mo.</p>
+                <p class="text">Sign up today!<br/>1-800-555-6489</p>
+            </div>
+            <div class="guide-container">
+                <table class="guide-table" cellpadding="0" cellspacing="0">
                     <thead>
                         <tr>
                             <th class="realtime">realtime</th>
@@ -32,35 +25,47 @@
                             <th class="time time-plus60"></th>
                         </tr>
                     </thead>
-
-                    <tbody id="listing-grid">
-                        <tr>
-                            <td class="channel">
-                                <div class="number">34</div>
-                                <div class="station">KMEX</div>
-                            </td>
-                            <td class="listing" colspan="2">Cosas del Amor</td>
-                            <td class="listing">El Gordo y la Flaca</td>
-                        </tr>
-                        <tr>
-                            <td class="channel">
-                                <div class="number">35</div>
-                                <div class="station">TVJAPN</div>
-                            </td>
-                            <td class="listing" colspan="2">Good Morning, Japan</td>
-                            <td class="listing">(3:15) Pop Jam<div class="continued-right"><br/></div></td>
-                        </tr>
-                        <tr>
-                            <td class="channel">
-                                <div class="number">36</div>
-                                <div class="station">CSPAN</div>
-                            </td>
-                            <td class="listing" colspan="2">Public Affairs (Cont.)</td>
-                            <td class="listing">Public Affairs</td>
-                        </tr>
-                    </tbody>
                 </table>
-            </marquee>
+                <marquee direction="up" scrollamount="1" scrolldelay="50">
+                    <table class="guide-table"  cellpadding="0" cellspacing="0">
+                        <thead>
+                            <tr>
+                                <th class="realtime">realtime</th>
+                                <th class="time time-plus00"></th>
+                                <th class="time time-plus30"></th>
+                                <th class="time time-plus60"></th>
+                            </tr>
+                        </thead>
+
+                        <tbody id="listing-grid">
+                            <tr>
+                                <td class="channel">
+                                    <div class="number">34</div>
+                                    <div class="station">KMEX</div>
+                                </td>
+                                <td class="listing" colspan="2">Cosas del Amor</td>
+                                <td class="listing">El Gordo y la Flaca</td>
+                            </tr>
+                            <tr>
+                                <td class="channel">
+                                    <div class="number">35</div>
+                                    <div class="station">TVJAPN</div>
+                                </td>
+                                <td class="listing" colspan="2">Good Morning, Japan</td>
+                                <td class="listing">(3:15) Pop Jam<div class="continued-right"><br/></div></td>
+                            </tr>
+                            <tr>
+                                <td class="channel">
+                                    <div class="number">36</div>
+                                    <div class="station">CSPAN</div>
+                                </td>
+                                <td class="listing" colspan="2">Public Affairs (Cont.)</td>
+                                <td class="listing">Public Affairs</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </marquee>
+            </div>
         </div>
     </div>
     <button id="about-button">About</button>
