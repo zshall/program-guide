@@ -20,7 +20,7 @@
     z-index: 11;
     background: rgba(0, 0, 0, 0.18);
     opacity: 0.75;
-    animation: scanline 6s linear infinite; }
+    animation: none; }
   .scanlines:after {
     top: 0;
     right: 0;
