@@ -1,0 +1,129 @@
+@font-face {
+    font-family: PrevueGrid;
+    src: url(fonts/PrevueGrid.ttf);
+}
+
+/* colors */
+$yellow: #cccc00;
+$white: #aaaaaa;
+$black: #111111;
+$light-blue: #223388;
+$dark-blue: #000055;
+$darker-blue: #000033;
+
+body {
+    background: $darker-blue;
+    color: $white;
+    -webkit-text-stroke: 1px $black;
+
+    & * {
+        font-family: "PrevueGrid";
+        font-size: 30px;
+    }
+}
+
+.yellow, .time, .channel {
+    color: #cccc00;
+}
+
+.realtime {
+    text-align: right;
+}
+
+.channel {
+    text-align: center;
+    padding-left: 2em;
+}
+
+/* boxes */
+th, td {
+    border: solid 5px;
+    border-top-color: $white;
+    border-left-color: $white;
+    border-bottom-color: $black;
+    border-right-color: $black;
+}
+
+th {
+    background-color: $light-blue;
+    width: 25%;
+}
+
+td {
+    background: $dark-blue;
+    vertical-align: top;
+}
+
+.continued-right {
+    -webkit-text-stroke: 0;
+    float: right;
+    vertical-align: middle;
+}
+
+/* page */
+.guide-container {
+    width: 850;
+    margin: 0;
+    padding: 0;
+}
+
+.screen {
+    position: absolute;
+    bottom: 100;
+    left: 160;
+    background-color: $black;
+    background-image: url('../img/backdrop.png');
+    background-position: 70px;
+    overflow: hidden;
+}
+
+.tv {
+    position: absolute;
+    width: 1200px;
+    height: 900px;
+
+    .tv-mask {
+        position: absolute;
+        z-index: 100;
+        width: 100%;
+        pointer-events: none;
+    }
+}
+
+.video-right {
+    position: absolute;
+    right: 165;
+    top: 120;
+    width:450;
+    height:360;
+}
+
+.video-left {
+    position: absolute;
+    top: 120;
+    left: 160;
+    width: 425;
+    height: 360;
+    text-align: center;
+    .text {
+        padding-left: 50px;
+        line-height: 1.8;
+    }
+}
+
+.about {
+    background: $black;
+    border: $white solid 5px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    padding: 10px;
+    width: 400px;
+}
+
+#about-button {
+    position: absolute;
+    right: 10;
+    z-index: 1000;
+}

@@ -1,0 +1,82 @@
+<html>
+<head>
+    <title>Prevue</title>
+    <link href="css/prevue.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="tv">
+        <img class="tv-mask" src="img/tv.png" />
+        <iframe class="video-right" src="https://www.youtube.com/embed/oemoqEuJdFE?&amp;controls=0&amp;showinfo=0&amp;autoplay=0" frameborder="0" allowfullscreen></iframe>
+        <div class="video-left">
+            <p class="text">HBO<br/>24 months $12.99 / mo.</p>
+            <p class="text">Sign up today!<br/>1-800-555-6489</p>
+        </div>
+        <div class="screen">
+            <table class="guide-container" cellpadding="0" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th class="realtime">1:57:24</th>
+                        <th class="time time-plus00">2:00 PM</th>
+                        <th class="time time-plus30">2:30 PM</th>
+                        <th class="time time-plus60">3:00 PM</th>
+                    </tr>
+                </thead>
+            </table>
+            <marquee direction="up" scrollamount="1" scrolldelay="50">
+                <table class="guide-container"  cellpadding="0" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th class="realtime">1:57:24</th>
+                            <th class="time time-plus00">2:00 PM</th>
+                            <th class="time time-plus30">2:30 PM</th>
+                            <th class="time time-plus60">3:00 PM</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="listing-grid">
+                        <tr>
+                            <td class="channel">
+                                <div class="number">34</div>
+                                <div class="station">KMEX</div>
+                            </td>
+                            <td class="listing" colspan="2">Cosas del Amor</td>
+                            <td class="listing">El Gordo y la Flaca</td>
+                        </tr>
+                        <tr>
+                            <td class="channel">
+                                <div class="number">35</div>
+                                <div class="station">TVJAPN</div>
+                            </td>
+                            <td class="listing" colspan="2">Good Morning, Japan</td>
+                            <td class="listing">(3:15) Pop Jam<div class="continued-right"><br/></div></td>
+                        </tr>
+                        <tr>
+                            <td class="channel">
+                                <div class="number">36</div>
+                                <div class="station">CSPAN</div>
+                            </td>
+                            <td class="listing" colspan="2">Public Affairs (Cont.)</td>
+                            <td class="listing">Public Affairs</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </marquee>
+        </div>
+    </div>
+    <button id="about-button">About</button>
+    <div class="about">
+        <p class="yellow">Prevue Guide simulation</p>
+        <p>Version 0.1</p>
+        <p>Zach Hall, 2017</p>
+        <p class="yellow">Credits</p>
+        <p><a href="http://ariweinstein.com/prevue/index.php">Prevue reference software, information, and Curday.dat</a> by <a href="http://ariweinstein.com/">AriX</a>, other Prevue Guide forum members.</p>
+        <p><a href="http://ariweinstein.com/prevue/viewtopic.php?f=2&t=449">New Prevue Fonts</a> by <a href="http://rudyv.io/">rudyvalencia</a></p>
+        <p><a href="https://www.youtube.com/watch?v=oemoqEuJdFE">4 Hours of 1990s Commercials</a> by <a href="https://www.youtube.com/channel/UC1IfPxiQ0-vAR02_PQwi-rQ">Vhs Archives</a></p>
+        
+    </div>
+    <script src="js/lib/jquery-3.2.1.min.js"></script>
+    <script src="js/lib/moment.js"></script>
+    <script src="js/lib/bettermarquee.js"></script>
+    <script src="js/prevue.js"></script>
+</body>
+</html>

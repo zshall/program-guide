@@ -1,0 +1,7 @@
+// Sass configuration
+{
+    "version": "0.1.0",
+    "command": "node-sass",
+    "isShellCommand": true,
+    "args": ["css/prevue.scss", "css/prevue.css"]
+}
