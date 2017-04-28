@@ -10,6 +10,7 @@ $(document).ready(() => {
         $('.time-plus00').text(moment().startOf('hour').format('h:mm A'));
         $('.time-plus30').text(moment().startOf('hour').minutes(30).format('h:mm A'));
         $('.time-plus60').text(moment().startOf('hour').add(1, 'hours').format('h:mm A'));
+        $('.date').text(moment().format('dddd MMMM D YYYY'));
     });
     
     $('#about-button').click(() => {

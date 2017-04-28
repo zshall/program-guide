@@ -87,6 +87,7 @@ body {
             position: absolute;
             bottom: 100;
             left: 155;
+            height: 325;
             background-color: $black;
             background-image: url('../img/backdrop.png');
             background-position: 70px;
@@ -94,6 +95,7 @@ body {
 
             .guide-table {
                 width: 850;
+                height: 240;
                 margin: 0;
                 padding: 0;
 
@@ -120,6 +122,11 @@ body {
                     &.movie { background: $blue-gradient; }
                     &.summary { background: $gray; }
                     &.notice { background: $red-gradient; }
+                    
+                    &.date {
+                        text-align: center;
+                        color: $yellow;
+                    }
 
                     &.channel {
                         text-align: center;
