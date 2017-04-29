@@ -454,8 +454,8 @@
 	<listing timeslot="46" type="9" data2="34" data3="0" data4="0">Infomercial</listing>
 	<listing timeslot="47" type="9" data2="34" data3="0" data4="0" rating="TV-PG">Shepherd's Chapel </listing>
 
-<notice>.1.1.0.0.0.Home Terminal (converter) needed in order to receive Premium Services and Pay Per View</notice>
-<notice>.1.1.0.0.0.Get our HBO Value Package - HBO and HBO Plus for only $10.95 per month. Call (310)618-9485 to subscribe.</notice>
+	<notice>Home Terminal (converter) needed in order to receive Premium Services and Pay Per View</notice>
+	<notice>Get our HBO Value Package - HBO and HBO Plus for only $10.95 per month. Call (310)618-9485 to subscribe.</notice>
 </channel>
 <channel number="25" name="HBOW02">
 	<listing timeslot="18" type="movie" data2="1." data3="." data4=".">Home Fries" ‡ (1998) Drew Barrymore, Luke Wilson. A pregnant restaurant cashier finds love with an Air National Guard reservist. (1 hr 33 min)</listing>
@@ -515,7 +515,7 @@
 	<listing timeslot="45" type="1" data2="34" data3="0" data4="0">To Be Announced</listing>
 	<listing timeslot="47" type="1" data2="34" data3="0" data4="0">Dr. Wayne Dyer</listing>
 
-<notice>.1.1.0.0.0.Get our Showtime Value Package - Showtime, Sundance Channel and The Movie Channel for only $10.95 per month. Call (310)618-9485 to subscribe.</notice>
+	<notice>Get our Showtime Value Package - Showtime, Sundance Channel and The Movie Channel for only $10.95 per month. Call (310)618-9485 to subscribe.</notice>
 </channel>
 <channel number="29" name="TMCW02">
 	<listing timeslot="17" type="movie" data2="1." data3="5" data4="0">(11:10) "A Gunfight" … (1971) Kirk Douglas, Johnny Cash. The friendship of retired gunslingers is tested by a showdown for profit. (1 hr 29 min)</listing>
@@ -624,8 +624,6 @@
 	<listing timeslot="43" type="1" data2="34" data3="0" data4="0">(12:20) Beloved Places, Far Away</listing>
 	<listing timeslot="45" type="1" data2="34" data3="0" data4="0">( 1:05) Japan Travelogue</listing>
 	<listing timeslot="47" type="1" data2="34" data3="0" data4="0">NHK News</listing>
-</channel>
-<channel number="35" name="PACSUN">
 </channel>
 <channel number="36" name="CS1001">
 	<listing timeslot="19" type="1" data2="0." data3="." data4=".">Public Affairs (Cont.)</listing>
@@ -879,7 +877,7 @@
 	<listing timeslot="47" type="1" data2="19" data3="0" data4="0" rating="Y">Wishbone </listing>
 	<listing timeslot="48" type="1" data2="19" data3="0" data4="0" rating="Y">Dragon Tales </listing>
 
-<notice>.1.1.0.0.0.In Torrance Channel 51 is Torrance Unified School District Programming</notice>
+	<notice>In Greenhill Channel 51 is Greenhill Unified School District Programming</notice>
 </channel>
 <channel number="51" name="TLC">
 	<listing timeslot="19" type="1" data2="34" data3="0" data4="0" rating="G">A Wedding Story </listing>
@@ -924,7 +922,7 @@
 <channel number="53" name="LO708C">
 	<listing timeslot="1" type="1" data2="0" data3="0" data4="0">El Camino College</listing>
 
-<notice>.1.1.0.0.0.In Torrance channel 54 is a Public, Educational, Government Access (PEG) channel</notice>
+	<notice>In Greenhill channel 54 is a Public, Educational, Government Access (PEG) channel</notice>
 </channel>
 <channel number="54" name="CMDW01">
 	<listing timeslot="19" type="1" data2="34" data3="0" data4="0" rating="TV-PG">Daily Show </listing>
@@ -1036,7 +1034,7 @@
 	<listing timeslot="47" type="1" data2="0" data3="0" data4="0">Public Access</listing>
 	<listing timeslot="48" type="1" data2="0" data3="0" data4="0">Public Access</listing>
 
-<notice>.1.1.0.0.0.In Torrance, channel 60 is a Public, Educational and Government (PEG) channel</notice>
+	<notice>In Greenhill, channel 60 is a Public, Educational and Government (PEG) channel</notice>
 </channel>
 <channel number="60" name="ETV002">
 	<listing timeslot="19" type="1" data2="34" data3="0" data4="0">News Weekend</listing>
@@ -1124,7 +1122,7 @@
 	<listing timeslot="47" type="1" data2="34" data3="0" data4="0" rating="G">Flintstones </listing>
 	<listing timeslot="48" type="1" data2="19" data3="0" data4="0" rating="Y">Scooby-Doo </listing>
 
-<notice>.1.2.0.0.0.Fridays in December, ESPN will reveal the top 10 of the "50 Greatest Athletes of all time on SportsCenter. Check the listings for times</notice>
+	<notice>.1.2.0.0.0.Fridays in December, ESPN will reveal the top 10 of the "50 Greatest Athletes of all time on SportsCenter. Check the listings for times</notice>
 </channel>
 <channel number="64" name="2ESPN">
 	<listing timeslot="19" type="1" data2=".5" data3="0" data4="0">Worldwide Soccer</listing>
@@ -1244,7 +1242,7 @@
 	<listing timeslot="45" type="1" data2="34" data3="0" data4="0" rating="G">History's Mysteries </listing>
 	<listing timeslot="47" type="1" data2="34" data3="0" data4="0" rating="G">Year by Year </listing>
 </channel>
-<channel number="95" name="GOLF">
+<channel number="94" name="GOLF">
 	<listing timeslot="27" type="1" data2=".5" data3="0" data4="0">Golf Channel Academy</listing>
 	<listing timeslot="28" type="1" data2=".5" data3="0" data4="0">Golf Central</listing>
 	<listing timeslot="29" type="1" data2=".5" data3="0" data4="0">Golf Talk Live</listing>
@@ -1281,8 +1279,8 @@
 	<listing timeslot="45" type="movie" data2="1" data3="1" data4="0">"Bodyslammin' 2: Down &amp; Dirty" (1 hr 30 min)</listing>
 	<listing timeslot="48" type="movie" data2="1" data3="1" data4="0">"PU Lines: Water Beauties" (1999) (1 hr 30 min)</listing>
 
-<notice>.1.1.0.0.0.Spice will feature an alternate audio feed (music) between the hours of 6am-10pm. This is to comply with Section 505 of the 1996 Telecommunications Act</notice>
-<notice>Z1.1.2.0.0.0.Order "The Blair Witch Project", "Election", or "Life is Beautiful", this month using Easy Touch Pay Per View and get $1 off the price - pay only $2.95! Watch Sneak Prevue for play dates and times</notice>
+	<notice>Spice will feature an alternate audio feed (music) between the hours of 6am-10pm. This is to comply with Section 505 of the 1996 Telecommunications Act</notice>
+	<notice>Order "The Blair Witch Project", "Election", or "Life is Beautiful", this month using Easy Touch Pay Per View and get $1 off the price - pay only $2.95! Watch Sneak Prevue for play dates and times</notice>
 </channel>
 <channel number="97" name="YV1002">
 	<listing timeslot="18" type="movie" data2="1." data3="." data4=".">The Blair Witch Project"  (1999) Heather Donahue, Michael Williams. Independent hit about student filmmakers who are terrorized in the forest. (1 hr 21 min)</listing>
