@@ -48,7 +48,9 @@
 body {
   background: #000033;
   color: #aaaaaa;
-  -webkit-text-stroke: 1px #111111; }
+  -webkit-text-stroke: 1px #111111;
+  margin: 0;
+  padding: 0; }
   body * {
     font-family: "PrevueGrid";
     font-size: 30px; }
@@ -65,14 +67,21 @@ body {
     width: 400px; }
   body #about-button {
     position: absolute;
-    right: 10;
-    z-index: 1000; }
+    right: 346px;
+    z-index: 1000;
+    width: 50px;
+    height: 47px;
+    bottom: -14px;
+    border-radius: 50px;
+    cursor: pointer; }
 
 /* page */
 .tv {
   position: absolute;
   width: 1200px;
-  height: 900px; }
+  height: 900px;
+  left: -webkit-calc(50% - 600px);
+  transform-origin: top; }
   .tv .tv-mask {
     position: absolute;
     z-index: 100;
@@ -81,12 +90,12 @@ body {
   .tv .screen .video-right {
     position: absolute;
     right: 169;
-    top: 120;
+    top: 128;
     width: 450;
     height: 360; }
   .tv .screen .video-left {
     position: absolute;
-    top: 120;
+    top: 128;
     left: 156;
     width: 425;
     height: 360;

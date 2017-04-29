@@ -1,6 +1,8 @@
 var guideData;
 var curTsStart = 19;
 var listingGrid;
+const maxWidth = 1200;
+const maxHeight = 1000;
 
 $(document).ready(() => {
     $('marquee').marquee();
@@ -12,6 +14,25 @@ $(document).ready(() => {
         $('.time-plus60').text(moment().startOf('hour').add(1, 'hours').format('h:mm A'));
         $('.date').text(moment().format('dddd MMMM D YYYY'));
     });
+
+    $(window).resize(function(evt) {
+        var $window = $(window);
+        var width = $window.width();
+        var height = $window.height();
+        var scale;
+
+        // early exit
+        if(width >= maxWidth && height >= maxHeight) {
+            $('.tv').css({'transform': ''});
+            return;
+        }
+
+        scale = Math.min(width/maxWidth, height/maxHeight);
+
+        $('.tv').css({'transform': 'scale(' + scale + ')'});
+    });
+
+    $(window).resize();
     
     $('#about-button').click(() => {
         $('.about').toggle();
