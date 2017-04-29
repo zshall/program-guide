@@ -1,3 +1,7 @@
+/**
+ * TV Simulator '99
+ * Zach Hall, 2017
+ */
 var guideData;
 var curTsStart = 19;
 var listingGrid;
