@@ -68,10 +68,23 @@ $(document).ready(() => {
 
     handleResize();
     
+    // about
     $('#about-button').click(() => {
         $('.about').toggle();
     })
     $('.about').toggle();
+
+    // other TV buttons
+    $('#tv-mute').click(() => {
+        const muted = muteVideo();
+        if (muted) {
+            $('#tvm-bottom-left').text('MUTING');
+        } else {
+            $('#tvm-bottom-left').text('');
+        }
+    });
+
+    // initialize listings grid
     $.ajax({
         type: 'GET',
         url: 'data/guide.xml',

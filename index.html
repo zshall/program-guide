@@ -9,9 +9,14 @@
 <body>
     <div class="tv">
         <a id="about-button">&nbsp;</a>
+        <a id="tv-mute">&nbsp;</a>
         <img class="tv-mask" src="img/tv.png" />
         <div class="screen">
-            <iframe class="video-right" src="https://www.youtube.com/embed/oemoqEuJdFE?&amp;controls=0&amp;showinfo=0&amp;autoplay=1" frameborder="0" allowfullscreen></iframe>
+            <div class="tv-messages">
+                <div id="tvm-top-right"></div>
+                <div id="tvm-bottom-left"></div>
+            </div>
+            <div id="ytplayer" class="video-right"></div>
             <div class="video-left">
                 <p class="text">HBO<br/>24 months $12.99 / mo.</p>
                 <p class="text">Sign up today!<br/>1-800-555-6489</p>
@@ -60,11 +65,11 @@
         <p><a href="http://ariweinstein.com/prevue/index.php">Prevue reference software, information, and Curday.dat</a> by <a href="http://ariweinstein.com/">AriX</a>, other Prevue Guide forum members.</p>
         <p><a href="http://ariweinstein.com/prevue/viewtopic.php?f=2&t=449">New Prevue Fonts</a> by <a href="http://rudyv.io/">rudyvalencia</a></p>
         <p><a href="https://www.youtube.com/watch?v=oemoqEuJdFE">4 Hours of 1990s Commercials</a> by <a href="https://www.youtube.com/channel/UC1IfPxiQ0-vAR02_PQwi-rQ">Vhs Archives</a></p>
-        
     </div>
     <script src="js/lib/jquery-3.2.1.min.js"></script>
     <script src="js/lib/moment.js"></script>
     <script src="js/lib/bettermarquee.js"></script>
+    <script src="js/lib/youtube-ctrl.js"></script>
     <script src="js/guide.js"></script>
 </body>
 </html>
