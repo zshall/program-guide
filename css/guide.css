@@ -54,7 +54,9 @@ body {
   body * {
     font-family: "PrevueGrid";
     font-size: 30px; }
-  body .yellow, body .time, body .channel {
+  body a, body a:visited {
+    color: #223388; }
+  body a:active, body a:hover, body .yellow, body .time, body .channel {
     color: #cccc00; }
   body .about {
     background: #111111;

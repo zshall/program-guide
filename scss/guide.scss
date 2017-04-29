@@ -36,7 +36,11 @@ body {
         font-size: 30px;
     }
 
-    .yellow, .time, .channel {
+    a, a:visited {
+        color: $light-blue;
+    }
+
+    a:active, a:hover, .yellow, .time, .channel {
         color: $yellow;
     }
 
