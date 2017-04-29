@@ -4,6 +4,46 @@ var listingGrid;
 const maxWidth = 1200;
 const maxHeight = 1000;
 
+// http://stackoverflow.com/a/18508235/970180
+const isMobile = {
+    Android: function() {
+        return navigator.userAgent.match(/Android/i);
+    },
+    BlackBerry: function() {
+        return navigator.userAgent.match(/BlackBerry/i);
+    },
+    iOS: function() {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    },
+    Opera: function() {
+        return navigator.userAgent.match(/Opera Mini/i);
+    },
+    Windows: function() {
+        return navigator.userAgent.match(/IEMobile/i);
+    },
+    any: function() {
+        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+    }
+};
+
+// http://stackoverflow.com/a/18751691/970180
+function handleResize() {
+    var $window = $(window);
+    var width = $window.width();
+    var height = $window.height();
+    var scale;
+
+    // early exit
+    if(width >= maxWidth && height >= maxHeight) {
+        $('.tv').css({'transform': ''});
+        return;
+    }
+
+    scale = Math.min(width/maxWidth, height/maxHeight);
+
+    $('.tv').css({'transform': 'scale(' + scale + ')'});
+}
+
 $(document).ready(() => {
     $('marquee').marquee();
     listingGrid = $('#listing-grid');
@@ -15,24 +55,14 @@ $(document).ready(() => {
         $('.date').text(moment().format('dddd MMMM D YYYY'));
     });
 
-    $(window).resize(function(evt) {
-        var $window = $(window);
-        var width = $window.width();
-        var height = $window.height();
-        var scale;
+    if( !isMobile.any() ){
+        $(window).resize(function() {
+            handleResize();
+        });
+        $('.screen').addClass('scanlines');
+    }
 
-        // early exit
-        if(width >= maxWidth && height >= maxHeight) {
-            $('.tv').css({'transform': ''});
-            return;
-        }
-
-        scale = Math.min(width/maxWidth, height/maxHeight);
-
-        $('.tv').css({'transform': 'scale(' + scale + ')'});
-    });
-
-    $(window).resize();
+    handleResize();
     
     $('#about-button').click(() => {
         $('.about').toggle();
