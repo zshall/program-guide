@@ -8,13 +8,18 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 //    after the API code downloads.
 var player;
 function onYouTubeIframeAPIReady() {
-    player = new YT.Player('ytplayer', {
-        height: '360',
-        width: '425',
-        videoId: 'oemoqEuJdFE',
-        events: {
-        'onReady': onPlayerReady,
-        'onStateChange': onPlayerStateChange
+        player = new YT.Player('ytplayer', {
+            height: '360',
+            width: '425',
+            videoId: 'oemoqEuJdFE',
+            events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+        },
+        playerVars: { 
+        'autoplay': 1,
+        'controls': 0, 
+        'rel' : 0
         }
     });
 }
