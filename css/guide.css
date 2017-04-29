@@ -41,6 +41,10 @@
     background-position: 0 50%; } }
 
 @font-face {
+  font-family: VCR;
+  src: url(fonts/VCR_OSD.ttf); }
+
+@font-face {
   font-family: PrevueGrid;
   src: url(fonts/PrevueGrid.ttf); }
 
@@ -76,6 +80,15 @@ body {
     bottom: -14px;
     border-radius: 50px;
     cursor: pointer; }
+  body #tv-mute {
+    position: absolute;
+    border-radius: 50px;
+    cursor: pointer;
+    z-index: 1000;
+    width: 20px;
+    height: 20px;
+    top: 883;
+    left: 487; }
 
 /* page */
 .tv {
@@ -89,6 +102,20 @@ body {
     z-index: 100;
     width: 100%;
     pointer-events: none; }
+  .tv .screen .tv-messages #tvm-bottom-left {
+    position: absolute;
+    left: 250;
+    bottom: 200;
+    font-family: VCR;
+    font-size: 45;
+    z-index: 50;
+    color: #cccc00; }
+  .tv .screen .tv-messages #tvm-top-right {
+    position: absolute;
+    top: 128;
+    right: 169;
+    z-index: 50;
+    text-align: right; }
   .tv .screen .video-right {
     position: absolute;
     right: 169;
