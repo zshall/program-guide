@@ -134,7 +134,7 @@ body {
             width: 425;
             height: 360;
             text-align: center;
-            .text {
+            p {
                 padding-left: 50px;
                 line-height: 1.8;
             }
@@ -175,6 +175,7 @@ body {
                 td {
                     background: $dark-blue;
                     vertical-align: top;
+                    padding: 5px;
 
                     &.movie { background: $blue-gradient; }
                     &.summary { background: $gray; }

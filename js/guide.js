@@ -8,6 +8,10 @@ var listingGrid;
 const maxWidth = 1200;
 const maxHeight = 1000;
 
+// ads
+let adList = [];
+let currentAd = 0;
+
 // http://stackoverflow.com/a/18508235/970180
 const isMobile = {
     Android: function() {
@@ -138,6 +142,19 @@ $(document).ready(() => {
                 
                 listingGrid.append(channelRow);
             });
+
+            // ads
+            guideData.find('ad').each((i, ad) => {
+                adList.push($(ad).html());
+            });
+
+            if (adList.length > 0) {
+                $('.video-left').html(adList[0]);
+            }
+
+            setInterval(() => {
+                nextAd();
+            }, 30000);
         }
     });
 });
@@ -164,4 +181,21 @@ function getFirstListing(listings, timeslot) {
     }
     
     return out;
+}
+
+function nextAd() {
+    if (adList.length <= 1) return;
+
+    $('.video-left').fadeOut(() => {
+        setTimeout(() => {
+            if (currentAd+1 >= adList.length) {
+                currentAd = 0;
+            } else {
+                currentAd++;
+            }
+            $('.video-left').html(adList[currentAd]);
+
+            $('.video-left').fadeIn();
+        }, 750);
+    });
 }
