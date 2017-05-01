@@ -2,14 +2,24 @@
 <!-- TV Simulator '99 - Zach Hall, 2017 -->
 <guide>
 <videos>
-	<video url="https://www.youtube.com/embed/oemoqEuJdFE?&amp;controls=0&amp;showinfo=0&amp;autoplay=0" />
+	<video id="oemoqEuJdFE" />
 </videos>
 <ads>
 	<ad>
-		<text>HBO</text>
-		<text>24 months $12.99 / mo.</text>
-		<text>Sign up today!</text>
-		<text>1-800-555-6489</text>
+		<p>HBO<br />24 months $10.99 / mo.</p>
+		<p>Sign up today!<br />1-800-555-6489</p>
+	</ad>
+	<ad>
+		<p>Showtime Value Package<br/>Showtime, Sundance &amp; Movie Channel</p>
+		<p>$10.95 / mo.<br/>1-800-555-6498</p>
+	</ad>
+	<ad>
+		<p><br/>SAVE on Collect Calls!</p>
+		<p>1-800-CALL-ATT</p>
+	</ad>
+	<ad>
+		<p>Greenhill Weather<br/>Most dependable forecast</p>
+		<p>The Weather Channel<br/>Ch. 95</p>
 	</ad>
 </ads>
 <channel number="1" name="KCBS">
@@ -458,20 +468,20 @@
 	<notice>Get our HBO Value Package - HBO and HBO Plus for only $10.95 per month. Call (310)618-9485 to subscribe.</notice>
 </channel>
 <channel number="25" name="HBOW02">
-	<listing timeslot="18" type="movie" data2="1." data3="." data4=".">Home Fries" ‡ (1998) Drew Barrymore, Luke Wilson. A pregnant restaurant cashier finds love with an Air National Guard reservist. (1 hr 33 min)</listing>
-	<listing timeslot="21" type="movie" data2="1" data3="4" data4="0">( 1:15) "Club Paradise" ‡ (1986) Robin Williams, Peter O'Toole. A retired fireman buys a dilapidated resort on a Caribbean island. (1 hr 35 min)</listing>
+	<listing timeslot="18" type="movie" rating="PG-13" data2="1." data3="." data4=".">Home Fries"  (1998) Drew Barrymore, Luke Wilson. A pregnant restaurant cashier finds love with an Air National Guard reservist. (1 hr 33 min)</listing>
+	<listing timeslot="21" type="movie" rating="PG-13" data2="1" data3="4" data4="0">( 1:15) "Club Paradise"  (1986) Robin Williams, Peter O'Toole. A retired fireman buys a dilapidated resort on a Caribbean island. (1 hr 35 min)</listing>
 	<listing timeslot="25" type="1" data2="34" data3="0" data4="0" rating="TV-PG">Family Video Diaries </listing>
 	<listing timeslot="26" type="movie" data2="1" data3="7" data4="0">"White Hunter, Black Heart" … (1990) Clint Eastwood, Jeff Fahey. Thinly disguised portrait of director John Huston. (1 hr 52 min)</listing>
 	<listing timeslot="30" type="1" data2="34" data3="0" data4="0">Kill for a Kill</listing>
 	<listing timeslot="32" type="movie" data2="1" data3="4" data4="0">"Second Sight" … (1989) John Larroquette, Bronson Pinchot. A psychic is hired to divine the whereabouts of a kidnapped cleric. (1 hr 24 min)</listing>
-	<listing timeslot="35" type="movie" data2="1" data3="5" data4="0">"Home Fries" ‡ (1998) Drew Barrymore, Luke Wilson. A pregnant restaurant cashier finds love with an Air National Guard reservist. (1 hr 33 min)</listing>
+	<listing timeslot="35" type="movie" rating="PG-13" data2="1" data3="5" data4="0">"Home Fries"  (1998) Drew Barrymore, Luke Wilson. A pregnant restaurant cashier finds love with an Air National Guard reservist. (1 hr 33 min)</listing>
 	<listing timeslot="38" type="1" data2="34" data3="0" data4="0">( 9:45) Dennis Miller: The Millennium Special</listing>
 	<listing timeslot="41" type="1" data2="34" data3="0" data4="0">Women Who Love Killers</listing>
 	<listing timeslot="43" type="movie" data2="1" data3="7" data4="0">"RKO 281" (1999) Liev Schreiber, James Cromwell. Biopic about the making of `Citizen Kane,'. (1 hr 27 min)</listing>
 	<listing timeslot="45" type="1" data2="34" data3="0" data4="0">( 1:25) Life of Crime 2</listing>
 </channel>
 <channel number="26" name="HBO206">
-	<listing timeslot="19" type="movie" data2="1." data3="." data4=".">Scrooged" ‡ (1988) Bill Murray, Karen Allen. A new twist on the classic, with a TV exec who doesn't care about anyone. (1 hr 41 min)</listing>
+	<listing timeslot="19" type="movie" rating="PG-13" data2="1." data3="." data4=".">Scrooged"  (1988) Bill Murray, Karen Allen. A new twist on the classic, with a TV exec who doesn't care about anyone. (1 hr 41 min)</listing>
 	<listing timeslot="22" type="movie" data2="1" data3="18" data4="0">( 1:45) "Double Take"  (1997) Craig Sheffer, Costas Mandylor. A murder witness thinks his testimony may have convicted an innocent man. (1 hr 26 min)</listing>
 	<listing timeslot="25" type="movie" data2="1" data3="4" data4="0">( 3:15) "Outrageous Fortune"  (1987) Bette Midler, Shelley Long. Two rivals discover they're dating the same man. (1 hr 40 min)</listing>
 	<listing timeslot="29" type="movie" data2="1" data3="7" data4="0">"Dance with Me" … (1998) Vanessa L. Williams, Chayanne. A one-time dance champ meets her match. (2 hrs 6 min)</listing>
@@ -524,7 +534,7 @@
 	<listing timeslot="26" type="movie" data2="1" data3="18" data4="0">( 3:50) "Gold" … (1974) Roger Moore, Susannah York. Melodrama centering on a plot to flood a South African mine. (1 hr 58 min)</listing>
 	<listing timeslot="30" type="movie" data2="1" data3="4" data4="0">( 5:55) "Oddball Hall" … (1990) Don Ameche, Burgess Meredith. Four elderly jewel thieves hide out in Africa while waiting for their payoff. (1 hr 27 min)</listing>
 	<listing timeslot="33" type="movie" data2="1" data3="4" data4="0">( 7:25) "Modern Romance"  (1981) Albert Brooks, Kathryn Harrold. A film editor tries to survive a failed relationship. (1 hr 33 min)</listing>
-	<listing timeslot="37" type="movie" data2="1" data3="4" data4="0">"As Good as It Gets" ‡ (1997) Jack Nicholson, Helen Hunt. Comedy about a curmudgeon's relationships with a waitress and a gay neighbor. (2 hrs 18 min)</listing>
+	<listing timeslot="37" type="movie" rating="PG-13" data2="1" data3="4" data4="0">"As Good as It Gets"  (1997) Jack Nicholson, Helen Hunt. Comedy about a curmudgeon's relationships with a waitress and a gay neighbor. (2 hrs 18 min)</listing>
 	<listing timeslot="41" type="movie" data2="1" data3="7" data4="0">(11:20) "U-Turn"  (1997) Sean Penn, Nick Nolte. A hood encounters strange locals in an Arizona town after his car breaks down. (2 hrs 5 min)</listing>
 	<listing timeslot="46" type="movie" data2="1" data3="7" data4="0">"A Brother's Kiss"  (1997) Nick Chinlund, Michael Raynor. Close siblings shun the temptations of their rough East Harlem neighborhood. (1 hr 33 min)</listing>
 </channel>
@@ -581,7 +591,7 @@
 <channel number="33" name="MAXW02">
 	<listing timeslot="19" type="movie" data2="1." data3="8" data4="0" rating="TV-PG">"In the Line of Duty: Kidnapped"  (1995) Dabney Coleman, Timothy Busfield. The FBI hunts for a criminal who's out to ransom two boys he's abducted. (1 hr 33 min)</listing>
 	<listing timeslot="22" type="movie" data2="1" data3="18" data4="0">"The Bounty" … (1984) Mel Gibson, Anthony Hopkins. The classic sea story about mutiny aboard a British ship. (2 hrs 12 min)</listing>
-	<listing timeslot="26" type="movie" data2="1" data3="18" data4="0">( 3:45) "Sphere" ‡ (1998) Dustin Hoffman, Sharon Stone. A team of brilliant thinkers study a mysterious spacecraft on the ocean floor. (2 hrs 14 min)</listing>
+	<listing timeslot="26" type="movie" rating="PG-13" data2="1" data3="18" data4="0">( 3:45) "Sphere"  (1998) Dustin Hoffman, Sharon Stone. A team of brilliant thinkers study a mysterious spacecraft on the ocean floor. (2 hrs 14 min)</listing>
 	<listing timeslot="31" type="movie" data2="1" data3="18" data4="0">"Switchback"  (1997) Dennis Quaid, Danny Glover. An FBI agent goes AWOL to find the killer who kidnapped his son. (1 hr 58 min)</listing>
 	<listing timeslot="35" type="movie" data2="1" data3="7" data4="0">"The Ice Storm"  (1997) Kevin Kline, Sigourney Weaver. Ang Lee's slice-of-life about married couples coping with their children. (1 hr 53 min)</listing>
 	<listing timeslot="39" type="movie" data2="1" data3="18" data4="0">"Copycat"  (1995) Sigourney Weaver, Holly Hunter. A vicious serial killer emulates notorious murderers. (2 hrs 4 min)</listing>
@@ -1284,12 +1294,12 @@
 </channel>
 <channel number="97" name="YV1002">
 	<listing timeslot="18" type="movie" data2="1." data3="." data4=".">The Blair Witch Project"  (1999) Heather Donahue, Michael Williams. Independent hit about student filmmakers who are terrorized in the forest. (1 hr 21 min)</listing>
-	<listing timeslot="21" type="movie" data2="1" data3="4" data4="0">"10 Things I Hate About You" ‡ (1999) Heath Ledger, Julia Stiles. A popular high-schooler is forbidden to date until her sister finds a beau. (1 hr 38 min)</listing>
+	<listing timeslot="21" type="movie" rating="PG-13" data2="1" data3="4" data4="0">"10 Things I Hate About You"  (1999) Heath Ledger, Julia Stiles. A popular high-schooler is forbidden to date until her sister finds a beau. (1 hr 38 min)</listing>
 	<listing timeslot="25" type="movie" data2="1" data3="5" data4="0">"Life"  (1999) Eddie Murphy, Martin Lawrence. Two men are jailed in 1932 Mississippi for a murder they didn't commit. (1 hr 49 min)</listing>
-	<listing timeslot="29" type="movie" data2="1" data3="5" data4="0">"Life Is Beautiful" ‡ (1998) Roberto Benigni, Nicoletta Braschi. Dubbed version of a tale of a man and his son enduring concentration-camp life. (1 hr 57 min)</listing>
+	<listing timeslot="29" type="movie" rating="PG-13" data2="1" data3="5" data4="0">"Life Is Beautiful"  (1998) Roberto Benigni, Nicoletta Braschi. Dubbed version of a tale of a man and his son enduring concentration-camp life. (1 hr 57 min)</listing>
 	<listing timeslot="33" type="movie" data2="1" data3="9" data4="0">"The Blair Witch Project"  (1999) Heather Donahue, Michael Williams. Independent hit about student filmmakers who are terrorized in the forest. (1 hr 21 min)</listing>
 	<listing timeslot="36" type="movie" data2="1" data3="4" data4="0">"Election"  (1999) Matthew Brodderick, Reese Witherspoon. A teacher tries to thwart an overachiever in a high-school election. (1 hr 44 min)</listing>
-	<listing timeslot="40" type="movie" data2="1" data3="9" data4="0">"The Mummy" ‡ (1999) Brendan Fraser, Rachel Weisz. A treasure-seeker unwittingly unleashes a 3000-year-old mummy. (2 hrs 5 min)</listing>
+	<listing timeslot="40" type="movie" rating="PG-13" data2="1" data3="9" data4="0">"The Mummy"  (1999) Brendan Fraser, Rachel Weisz. A treasure-seeker unwittingly unleashes a 3000-year-old mummy. (2 hrs 5 min)</listing>
 	<listing timeslot="45" type="movie" data2="1" data3="18" data4="0">"The Matrix"  (1999) Keanu Reeves, Laurence Fishburne. Dazzling special effects frame a compelling story about a hacker on the run. (2 hrs 28 min)</listing>
 </channel>
 </guide>

@@ -129,7 +129,7 @@ body {
     width: 425;
     height: 360;
     text-align: center; }
-    .tv .screen .video-left .text {
+    .tv .screen .video-left p {
       padding-left: 50px;
       line-height: 1.8; }
   .tv .screen .guide-container {
@@ -160,7 +160,8 @@ body {
           text-align: right; }
       .tv .screen .guide-container .guide-table td {
         background: #000055;
-        vertical-align: top; }
+        vertical-align: top;
+        padding: 5px; }
         .tv .screen .guide-container .guide-table td.movie {
           background: linear-gradient(to bottom, #3336ac 0%, #3432da 30%, #353253 100%); }
         .tv .screen .guide-container .guide-table td.summary {
