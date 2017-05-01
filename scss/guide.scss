@@ -179,7 +179,10 @@ body {
 
                     &.movie { background: $blue-gradient; }
                     &.summary { background: $gray; }
-                    &.notice { background: $red-gradient; }
+                    &.notice {
+                        padding-left: 45px;
+                        background: $red-gradient;
+                    }
                     
                     &.date {
                         text-align: center;
