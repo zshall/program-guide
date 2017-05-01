@@ -167,6 +167,7 @@ body {
         .tv .screen .guide-container .guide-table td.summary {
           background: #555555; }
         .tv .screen .guide-container .guide-table td.notice {
+          padding-left: 45px;
           background: linear-gradient(to bottom, #862c2c 0%, #ce2434 30%, #4b2624 100%); }
         .tv .screen .guide-container .guide-table td.date {
           text-align: center;

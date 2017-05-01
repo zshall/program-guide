@@ -6,12 +6,12 @@
 </videos>
 <ads>
 	<ad>
-		<p>HBO<br />24 months $10.99 / mo.</p>
-		<p>Sign up today!<br />1-800-555-6489</p>
+		<p>HBO<br />12 months $10.95 / mo.</p>
+		<p>Sign up today!<br />1-800-555-9485</p>
 	</ad>
 	<ad>
 		<p>Showtime Value Package<br/>Showtime, Sundance &amp; Movie Channel</p>
-		<p>$10.95 / mo.<br/>1-800-555-6498</p>
+		<p>$10.95 / mo.<br/>1-800-555-9485</p>
 	</ad>
 	<ad>
 		<p><br/>SAVE on Collect Calls!</p>
@@ -23,6 +23,7 @@
 	</ad>
 </ads>
 <channel number="1" name="KCBS">
+	<notice>The Greenhill County public offices will be closed to the public Monday, May 3, 1999 for renovation.</notice>
 	<listing timeslot="19" type="1" data2="22" data3="0" data4="0">News</listing>
 	<listing timeslot="20" type="1" data2="34" data3="0" data4="0">Bold and the Beautiful</listing>
 	<listing timeslot="21" type="1" data2="34" data3="0" data4="0">As the World Turns</listing>
@@ -463,9 +464,6 @@
 	<listing timeslot="45" type="9" data2="34" data3="0" data4="0">Infomercial</listing>
 	<listing timeslot="46" type="9" data2="34" data3="0" data4="0">Infomercial</listing>
 	<listing timeslot="47" type="9" data2="34" data3="0" data4="0" rating="TV-PG">Shepherd's Chapel </listing>
-
-	<notice>Home Terminal (converter) needed in order to receive Premium Services and Pay Per View</notice>
-	<notice>Get our HBO Value Package - HBO and HBO Plus for only $10.95 per month. Call (310)618-9485 to subscribe.</notice>
 </channel>
 <channel number="25" name="HBOW02">
 	<listing timeslot="18" type="movie" rating="PG-13" data2="1." data3="." data4=".">Home Fries"  (1998) Drew Barrymore, Luke Wilson. A pregnant restaurant cashier finds love with an Air National Guard reservist. (1 hr 33 min)</listing>
@@ -479,6 +477,8 @@
 	<listing timeslot="41" type="1" data2="34" data3="0" data4="0">Women Who Love Killers</listing>
 	<listing timeslot="43" type="movie" data2="1" data3="7" data4="0">"RKO 281" (1999) Liev Schreiber, James Cromwell. Biopic about the making of `Citizen Kane,'. (1 hr 27 min)</listing>
 	<listing timeslot="45" type="1" data2="34" data3="0" data4="0">( 1:25) Life of Crime 2</listing>
+
+	<notice>Home Terminal (converter) needed in order to receive Premium Services and Pay Per View</notice>
 </channel>
 <channel number="26" name="HBO206">
 	<listing timeslot="19" type="movie" rating="PG-13" data2="1." data3="." data4=".">Scrooged"  (1988) Bill Murray, Karen Allen. A new twist on the classic, with a TV exec who doesn't care about anyone. (1 hr 41 min)</listing>
@@ -491,6 +491,8 @@
 	<listing timeslot="41" type="1" data2="34" data3="0" data4="0">Reverb</listing>
 	<listing timeslot="43" type="movie" data2="1." data3="8" data4="0">"Executive Target"  (1996) Michael Madsen, Keith David. A stuntman's wife will be killed unless he helps a band of traitors. (1 hr 36 min)</listing>
 	<listing timeslot="46" type="movie" data2="1." data3="." data4="."> 1:40) "Slums of Beverly Hills"  (1998) Natasha Lyonne, Alan Arkin. A sexually blossoming teen tries to cope with her nomadic, low-class family. (1 hr 31 min)</listing>
+
+	<notice>Get our HBO Value Package - HBO and HBO Plus for only $10.95 per month. Call (800)555-9485 to subscribe.</notice>
 </channel>
 <channel number="27" name="AMC002">
 	<listing timeslot="19" type="movie" data2="1." data3="." data4="." rating="G">Good Sam"  (1948) Gary Cooper, Ann Sheridan. A fellow's good Samaritanism causes problems for him and his wife. (1 hr 52 min)</listing>
@@ -524,8 +526,6 @@
 	<listing timeslot="44" type="1" data2="22" data3="0" data4="0">Life &amp; Times Tonight</listing>
 	<listing timeslot="45" type="1" data2="34" data3="0" data4="0">To Be Announced</listing>
 	<listing timeslot="47" type="1" data2="34" data3="0" data4="0">Dr. Wayne Dyer</listing>
-
-	<notice>Get our Showtime Value Package - Showtime, Sundance Channel and The Movie Channel for only $10.95 per month. Call (310)618-9485 to subscribe.</notice>
 </channel>
 <channel number="29" name="TMCW02">
 	<listing timeslot="17" type="movie" data2="1." data3="5" data4="0">(11:10) "A Gunfight" … (1971) Kirk Douglas, Johnny Cash. The friendship of retired gunslingers is tested by a showdown for profit. (1 hr 29 min)</listing>
@@ -549,6 +549,8 @@
 	<listing timeslot="42" type="1" data2="34" data3="0" data4="0">(11:45) Hoop Life</listing>
 	<listing timeslot="44" type="movie" data2="1" data3="18" data4="0">(12:35) "Deadly Currency" (1994) William Smith, Deron McBee. Gamblers prepare for the biggest wagering day of the year: Super Bowl Sunday. (1 hr 29 min)</listing>
 	<listing timeslot="47" type="movie" data2="1" data3="18" data4="0">( 2:05) "Foxtrap"  (1986) Fred Williamson, Chris Connelly. Derivative tale about a hired enforcer looking for a missing girl in Europe. (1 hr 29 min)</listing>
+
+	<notice>Get our Showtime Value Package - Showtime, Sundance Channel and The Movie Channel for only $10.95 per month. Call (800)555-9485 to subscribe.</notice>
 </channel>
 <channel number="31" name="SUN">
 	<listing timeslot="17" type="movie" data2="1" data3="6" data4="0">(11:05) "Nico Icon" (1996) Intriguing portrait of the German singer Nico. (1 hr 15 min)</listing>
@@ -886,8 +888,6 @@
 	<listing timeslot="43" type="1" data2="0" data3="0" data4="0">Viewer's Choice (Cont.)</listing>
 	<listing timeslot="47" type="1" data2="19" data3="0" data4="0" rating="Y">Wishbone </listing>
 	<listing timeslot="48" type="1" data2="19" data3="0" data4="0" rating="Y">Dragon Tales </listing>
-
-	<notice>In Greenhill Channel 51 is Greenhill Unified School District Programming</notice>
 </channel>
 <channel number="51" name="TLC">
 	<listing timeslot="19" type="1" data2="34" data3="0" data4="0" rating="G">A Wedding Story </listing>
@@ -910,6 +910,8 @@
 	<listing timeslot="41" type="1" data2="34" data3="0" data4="0" rating="TV-PG">Paramedics </listing>
 	<listing timeslot="43" type="1" data2="34" data3="0" data4="0" rating="G">Cosmic Safari </listing>
 	<listing timeslot="47" type="1" data2="22" data3="0" data4="0" rating="G">Turning Point </listing>
+	
+	<notice>In Greenhill Channel 51 is Greenhill Unified School District Programming</notice>
 </channel>
 <channel number="52" name="KVEA">
 	<listing timeslot="19" type="1" data2=".1" data3="7" data4="0">"Los dos hermanos" (1970) Jorge Rivero, Gregorio Casal. La joven esposa de un rico hacendado mayor tiene una aventura. (1 hr 29 min)</listing>
@@ -931,8 +933,6 @@
 </channel>
 <channel number="53" name="LO708C">
 	<listing timeslot="1" type="1" data2="0" data3="0" data4="0">El Camino College</listing>
-
-	<notice>In Greenhill channel 54 is a Public, Educational, Government Access (PEG) channel</notice>
 </channel>
 <channel number="54" name="CMDW01">
 	<listing timeslot="19" type="1" data2="34" data3="0" data4="0" rating="TV-PG">Daily Show </listing>
@@ -955,6 +955,8 @@
 	<listing timeslot="45" type="1" data2="34" data3="0" data4="0">Kids in the Hall</listing>
 	<listing timeslot="46" type="1" data2="34" data3="0" data4="0" rating="TV-PG">Daily Show </listing>
 	<listing timeslot="47" type="movie" data2="1" data3="5" data4="0">"Irreconcilable Differences" (1984) Ryan O'Neal, Shelley Long. In Hollywood (where else?), a kid sues her squabbling parents for divorce. (1 hr 54 min)</listing>
+	
+	<notice>In Greenhill channel 54 is a Public, Educational, Government Access (PEG) channel</notice>
 </channel>
 <channel number="55" name="QVC1">
 	<listing timeslot="19" type="1" data2="34" data3="0" data4="0">Cleaning Solutions</listing>
@@ -1043,8 +1045,6 @@
 	<listing timeslot="46" type="1" data2="0" data3="0" data4="0">Public Access</listing>
 	<listing timeslot="47" type="1" data2="0" data3="0" data4="0">Public Access</listing>
 	<listing timeslot="48" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-
-	<notice>In Greenhill, channel 60 is a Public, Educational and Government (PEG) channel</notice>
 </channel>
 <channel number="60" name="ETV002">
 	<listing timeslot="19" type="1" data2="34" data3="0" data4="0">News Weekend</listing>
@@ -1067,6 +1067,8 @@
 	<listing timeslot="46" type="1" data2="34" data3="0" data4="0">Search Party</listing>
 	<listing timeslot="47" type="1" data2="34" data3="0" data4="0">Howard Stern</listing>
 	<listing timeslot="48" type="1" data2="34" data3="0" data4="0">Howard Stern</listing>
+
+	<notice>In Greenhill, channel 60 is a Public, Educational and Government (PEG) channel</notice>
 </channel>
 <channel number="61" name="TRVL">
 	<listing timeslot="19" type="1" data2="34" data3="0" data4="0" rating="G">Adventure Crazy </listing>
@@ -1131,8 +1133,6 @@
 	<listing timeslot="45" type="1" data2="19" data3="0" data4="0" rating="G">Bugs 'n' Daffy </listing>
 	<listing timeslot="47" type="1" data2="34" data3="0" data4="0" rating="G">Flintstones </listing>
 	<listing timeslot="48" type="1" data2="19" data3="0" data4="0" rating="Y">Scooby-Doo </listing>
-
-	<notice>.1.2.0.0.0.Fridays in December, ESPN will reveal the top 10 of the "50 Greatest Athletes of all time on SportsCenter. Check the listings for times</notice>
 </channel>
 <channel number="64" name="2ESPN">
 	<listing timeslot="19" type="1" data2=".5" data3="0" data4="0">Worldwide Soccer</listing>
@@ -1153,6 +1153,8 @@
 	<listing timeslot="45" type="1" data2=".5" data3="0" data4="0">Cheerleading Competition: Division III National High-School Championship (Taped Delay)</listing>
 	<listing timeslot="46" type="1" data2=".5" data3="0" data4="0">Cheerleading: National High School Championships (Taped Delay)</listing>
 	<listing timeslot="47" type="1" data2=".5" data3="0" data4="0">Cheerleading Competition: National All-Star Championships (Taped Delay)</listing>
+
+	<notice>Fridays in December, ESPN will reveal the top 10 of the "50 Greatest Athletes of all time on SportsCenter. Check the listings for times</notice>
 </channel>
 <channel number="65" name="FNC">
 	<listing timeslot="19" type="1" data2="34" data3="0" data4="0">News</listing>
@@ -1290,7 +1292,6 @@
 	<listing timeslot="48" type="movie" data2="1" data3="1" data4="0">"PU Lines: Water Beauties" (1999) (1 hr 30 min)</listing>
 
 	<notice>Spice will feature an alternate audio feed (music) between the hours of 6am-10pm. This is to comply with Section 505 of the 1996 Telecommunications Act</notice>
-	<notice>Order "The Blair Witch Project", "Election", or "Life is Beautiful", this month using Easy Touch Pay Per View and get $1 off the price - pay only $2.95! Watch Sneak Prevue for play dates and times</notice>
 </channel>
 <channel number="97" name="YV1002">
 	<listing timeslot="18" type="movie" data2="1." data3="." data4=".">The Blair Witch Project"  (1999) Heather Donahue, Michael Williams. Independent hit about student filmmakers who are terrorized in the forest. (1 hr 21 min)</listing>
@@ -1301,5 +1302,10 @@
 	<listing timeslot="36" type="movie" data2="1" data3="4" data4="0">"Election"  (1999) Matthew Brodderick, Reese Witherspoon. A teacher tries to thwart an overachiever in a high-school election. (1 hr 44 min)</listing>
 	<listing timeslot="40" type="movie" rating="PG-13" data2="1" data3="9" data4="0">"The Mummy"  (1999) Brendan Fraser, Rachel Weisz. A treasure-seeker unwittingly unleashes a 3000-year-old mummy. (2 hrs 5 min)</listing>
 	<listing timeslot="45" type="movie" data2="1" data3="18" data4="0">"The Matrix"  (1999) Keanu Reeves, Laurence Fishburne. Dazzling special effects frame a compelling story about a hacker on the run. (2 hrs 28 min)</listing>
+
+	<notice>Order "The Blair Witch Project", "Election", or "Life is Beautiful", this month using Easy Touch Pay Per View and get $1 off the price - pay only $2.95! Watch Sneak Prevue for play dates and times</notice>
+</channel>
+<channel noticeonly="noticeonly">
+	<notice>TS99 Networks, Inc</notice>
 </channel>
 </guide>

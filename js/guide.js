@@ -95,13 +95,19 @@ $(document).ready(() => {
         dataType: 'xml',
         complete: (data, status) => {
             listingGrid.empty();
-            console.log('DONE');
-            console.log(data);
             guideData = $($.parseXML(data.responseText));
-            console.log(guideData);
             
             guideData.find('channel').each((i, channel) => {
                 var ch = $(channel);
+                // channel notices
+                var notices = $(ch.find('notice'));
+                $(notices).each((i, notice) => {
+                    var noticeRow = $('<tr>');
+                    noticeRow.append($('<td>').addClass('notice').attr('colspan', 4).html($(notice).html()));
+                    listingGrid.append(noticeRow);
+                });
+                
+                if (ch.attr('noticeonly')) return;
                 var channelRow = $('<tr>');
                 
                 var channelBox = $('<td>').addClass('channel');
