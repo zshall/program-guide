@@ -27,7 +27,7 @@ $blue-gradient: linear-gradient(to bottom, rgba(51,54,172,1) 0%,rgba(52,50,218,1
 $red-gradient: linear-gradient(to bottom, rgba(134,44,44,1) 0%, rgba(206,36,52,1) 30%, rgba(75,38,36,1) 100%);
 
 @import 'core/scanlines';
-@import 'core/guide';
+@import 'core/tv';
 
 .tv .screen {
     #ch-12 { @import 'channels/012'; }
