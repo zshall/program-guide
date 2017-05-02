@@ -469,9 +469,9 @@
 	<listing timeslot="18" type="movie" rating="PG-13" data2="1." data3="." data4=".">Home Fries"  (1998) Drew Barrymore, Luke Wilson. A pregnant restaurant cashier finds love with an Air National Guard reservist. (1 hr 33 min)</listing>
 	<listing timeslot="21" type="movie" rating="PG-13" data2="1" data3="4" data4="0">( 1:15) "Club Paradise"  (1986) Robin Williams, Peter O'Toole. A retired fireman buys a dilapidated resort on a Caribbean island. (1 hr 35 min)</listing>
 	<listing timeslot="25" type="1" data2="34" data3="0" data4="0" rating="TV-PG">Family Video Diaries </listing>
-	<listing timeslot="26" type="movie" data2="1" data3="7" data4="0">"White Hunter, Black Heart" … (1990) Clint Eastwood, Jeff Fahey. Thinly disguised portrait of director John Huston. (1 hr 52 min)</listing>
+	<listing timeslot="26" rating="PG" type="movie" data2="1" data3="7" data4="0">"White Hunter, Black Heart"  (1990) Clint Eastwood, Jeff Fahey. Thinly disguised portrait of director John Huston. (1 hr 52 min)</listing>
 	<listing timeslot="30" type="1" data2="34" data3="0" data4="0">Kill for a Kill</listing>
-	<listing timeslot="32" type="movie" data2="1" data3="4" data4="0">"Second Sight" … (1989) John Larroquette, Bronson Pinchot. A psychic is hired to divine the whereabouts of a kidnapped cleric. (1 hr 24 min)</listing>
+	<listing timeslot="32" rating="PG" type="movie" data2="1" data3="4" data4="0">"Second Sight"  (1989) John Larroquette, Bronson Pinchot. A psychic is hired to divine the whereabouts of a kidnapped cleric. (1 hr 24 min)</listing>
 	<listing timeslot="35" type="movie" rating="PG-13" data2="1" data3="5" data4="0">"Home Fries"  (1998) Drew Barrymore, Luke Wilson. A pregnant restaurant cashier finds love with an Air National Guard reservist. (1 hr 33 min)</listing>
 	<listing timeslot="38" type="1" data2="34" data3="0" data4="0">( 9:45) Dennis Miller: The Millennium Special</listing>
 	<listing timeslot="41" type="1" data2="34" data3="0" data4="0">Women Who Love Killers</listing>
@@ -482,15 +482,15 @@
 </channel>
 <channel number="26" name="HBO206">
 	<listing timeslot="19" type="movie" rating="PG-13" data2="1." data3="." data4=".">Scrooged"  (1988) Bill Murray, Karen Allen. A new twist on the classic, with a TV exec who doesn't care about anyone. (1 hr 41 min)</listing>
-	<listing timeslot="22" type="movie" data2="1" data3="18" data4="0">( 1:45) "Double Take"  (1997) Craig Sheffer, Costas Mandylor. A murder witness thinks his testimony may have convicted an innocent man. (1 hr 26 min)</listing>
-	<listing timeslot="25" type="movie" data2="1" data3="4" data4="0">( 3:15) "Outrageous Fortune"  (1987) Bette Midler, Shelley Long. Two rivals discover they're dating the same man. (1 hr 40 min)</listing>
-	<listing timeslot="29" type="movie" data2="1" data3="7" data4="0">"Dance with Me" … (1998) Vanessa L. Williams, Chayanne. A one-time dance champ meets her match. (2 hrs 6 min)</listing>
-	<listing timeslot="33" type="movie" data2="1" data3="18" data4="0">( 7:15) "Widow's Kiss"  (1995) Mackenzie Astin, Beverly D'Angelo. A teen hires a detective to investigate his `black widow' stepmother. (1 hr 43 min)</listing>
-	<listing timeslot="37" type="movie" data2="1" data3="18" data4="0">"Judgment Day"  (1999) Suzy Amis, Ice-T. Outer-space debris is heading for Earth, and only one scientist can stop it. (1 hr 31 min)</listing>
+	<listing timeslot="22" rating="R" type="movie" data2="1" data3="18" data4="0">( 1:45) "Double Take"  (1997) Craig Sheffer, Costas Mandylor. A murder witness thinks his testimony may have convicted an innocent man. (1 hr 26 min)</listing>
+	<listing timeslot="25" rating="R" type="movie" data2="1" data3="4" data4="0">( 3:15) "Outrageous Fortune"  (1987) Bette Midler, Shelley Long. Two rivals discover they're dating the same man. (1 hr 40 min)</listing>
+	<listing timeslot="29" rating="PG" type="movie" data2="1" data3="7" data4="0">"Dance with Me"  (1998) Vanessa L. Williams, Chayanne. A one-time dance champ meets her match. (2 hrs 6 min)</listing>
+	<listing timeslot="33" rating="R" type="movie" data2="1" data3="18" data4="0">( 7:15) "Widow's Kiss"  (1995) Mackenzie Astin, Beverly D'Angelo. A teen hires a detective to investigate his `black widow' stepmother. (1 hr 43 min)</listing>
+	<listing timeslot="37" rating="R" type="movie" data2="1" data3="18" data4="0">"Judgment Day"  (1999) Suzy Amis, Ice-T. Outer-space debris is heading for Earth, and only one scientist can stop it. (1 hr 31 min)</listing>
 	<listing timeslot="40" type="1" data2="34" data3="0" data4="0">Tracey Takes On...</listing>
 	<listing timeslot="41" type="1" data2="34" data3="0" data4="0">Reverb</listing>
-	<listing timeslot="43" type="movie" data2="1." data3="8" data4="0">"Executive Target"  (1996) Michael Madsen, Keith David. A stuntman's wife will be killed unless he helps a band of traitors. (1 hr 36 min)</listing>
-	<listing timeslot="46" type="movie" data2="1." data3="." data4="."> 1:40) "Slums of Beverly Hills"  (1998) Natasha Lyonne, Alan Arkin. A sexually blossoming teen tries to cope with her nomadic, low-class family. (1 hr 31 min)</listing>
+	<listing timeslot="43" rating="R" type="movie" data2="1." data3="8" data4="0">"Executive Target"  (1996) Michael Madsen, Keith David. A stuntman's wife will be killed unless he helps a band of traitors. (1 hr 36 min)</listing>
+	<listing timeslot="46" rating="R" type="movie" data2="1." data3="." data4="."> 1:40) "Slums of Beverly Hills"  (1998) Natasha Lyonne, Alan Arkin. A sexually blossoming teen tries to cope with her nomadic, low-class family. (1 hr 31 min)</listing>
 
 	<notice>Get our HBO Value Package - HBO and HBO Plus for only $10.95 per month. Call (800)555-9485 to subscribe.</notice>
 </channel>
@@ -528,27 +528,27 @@
 	<listing timeslot="47" type="1" data2="34" data3="0" data4="0">Dr. Wayne Dyer</listing>
 </channel>
 <channel number="29" name="TMCW02">
-	<listing timeslot="17" type="movie" data2="1." data3="5" data4="0">(11:10) "A Gunfight" … (1971) Kirk Douglas, Johnny Cash. The friendship of retired gunslingers is tested by a showdown for profit. (1 hr 29 min)</listing>
-	<listing timeslot="20" type="movie" data2="1" data3="7" data4="0">(12:40) "Casualties"  (1997) Mark Harmon, Caroline Goodall. An abused housewife's ordeal becomes deadlier when `helped' by a stranger. (1 hr 26 min)</listing>
+	<listing timeslot="17" rating="PG" type="movie" data2="1." data3="5" data4="0">(11:10) "A Gunfight"  (1971) Kirk Douglas, Johnny Cash. The friendship of retired gunslingers is tested by a showdown for profit. (1 hr 29 min)</listing>
+	<listing timeslot="20" rating="R" type="movie" data2="1" data3="7" data4="0">(12:40) "Casualties"  (1997) Mark Harmon, Caroline Goodall. An abused housewife's ordeal becomes deadlier when `helped' by a stranger. (1 hr 26 min)</listing>
 	<listing timeslot="23" type="movie" data2="1" data3="4" data4="0">( 2:10) "The Deli" (1997) Mike Starr, Matt Keeslar. The owner of an Italian deli struggles with gambling debts. (1 hr 36 min)</listing>
-	<listing timeslot="26" type="movie" data2="1" data3="18" data4="0">( 3:50) "Gold" … (1974) Roger Moore, Susannah York. Melodrama centering on a plot to flood a South African mine. (1 hr 58 min)</listing>
-	<listing timeslot="30" type="movie" data2="1" data3="4" data4="0">( 5:55) "Oddball Hall" … (1990) Don Ameche, Burgess Meredith. Four elderly jewel thieves hide out in Africa while waiting for their payoff. (1 hr 27 min)</listing>
-	<listing timeslot="33" type="movie" data2="1" data3="4" data4="0">( 7:25) "Modern Romance"  (1981) Albert Brooks, Kathryn Harrold. A film editor tries to survive a failed relationship. (1 hr 33 min)</listing>
+	<listing timeslot="26" rating="PG" type="movie" data2="1" data3="18" data4="0">( 3:50) "Gold"  (1974) Roger Moore, Susannah York. Melodrama centering on a plot to flood a South African mine. (1 hr 58 min)</listing>
+	<listing timeslot="30" rating="PG" type="movie" data2="1" data3="4" data4="0">( 5:55) "Oddball Hall"  (1990) Don Ameche, Burgess Meredith. Four elderly jewel thieves hide out in Africa while waiting for their payoff. (1 hr 27 min)</listing>
+	<listing timeslot="33" rating="R" type="movie" data2="1" data3="4" data4="0">( 7:25) "Modern Romance"  (1981) Albert Brooks, Kathryn Harrold. A film editor tries to survive a failed relationship. (1 hr 33 min)</listing>
 	<listing timeslot="37" type="movie" rating="PG-13" data2="1" data3="4" data4="0">"As Good as It Gets"  (1997) Jack Nicholson, Helen Hunt. Comedy about a curmudgeon's relationships with a waitress and a gay neighbor. (2 hrs 18 min)</listing>
-	<listing timeslot="41" type="movie" data2="1" data3="7" data4="0">(11:20) "U-Turn"  (1997) Sean Penn, Nick Nolte. A hood encounters strange locals in an Arizona town after his car breaks down. (2 hrs 5 min)</listing>
-	<listing timeslot="46" type="movie" data2="1" data3="7" data4="0">"A Brother's Kiss"  (1997) Nick Chinlund, Michael Raynor. Close siblings shun the temptations of their rough East Harlem neighborhood. (1 hr 33 min)</listing>
+	<listing timeslot="41" rating="R" type="movie" data2="1" data3="7" data4="0">(11:20) "U-Turn"  (1997) Sean Penn, Nick Nolte. A hood encounters strange locals in an Arizona town after his car breaks down. (2 hrs 5 min)</listing>
+	<listing timeslot="46" rating="R" type="movie" data2="1" data3="7" data4="0">"A Brother's Kiss"  (1997) Nick Chinlund, Michael Raynor. Close siblings shun the temptations of their rough East Harlem neighborhood. (1 hr 33 min)</listing>
 </channel>
 <channel number="30" name="SHOW02">
-	<listing timeslot="19" type="movie" data2="1." data3="." data4=".">12:15) "Hanky Panky" … (1982) Gene Wilder, Gilda Radner. An innocent architect is caught up in espionage and murder. (1 hr 50 min)</listing>
-	<listing timeslot="23" type="movie" data2="1" data3="18" data4="0">( 2:15) "The Destructors" … (1975) Anthony Quinn, Michael Caine. A narcotics officer joins forces with a hit man to nail a mob kingpin. (1 hr 29 min)</listing>
+	<listing timeslot="19" rating="PG" type="movie" data2="1." data3="." data4=".">12:15) "Hanky Panky"  (1982) Gene Wilder, Gilda Radner. An innocent architect is caught up in espionage and murder. (1 hr 50 min)</listing>
+	<listing timeslot="23" rating="PG" type="movie" data2="1" data3="18" data4="0">( 2:15) "The Destructors"  (1975) Anthony Quinn, Michael Caine. A narcotics officer joins forces with a hit man to nail a mob kingpin. (1 hr 29 min)</listing>
 	<listing timeslot="27" type="movie" data2="1" data3="10" data4="0" rating="G">"Carousel"  (1956) Gordon MacRae, Shirley Jones. Rodgers and Hammerstein's hit about ill-fated romance in 19th-century Maine. (2 hrs 8 min)</listing>
 	<listing timeslot="32" type="movie" data2="1" data3="7" data4="0">"Wrestling with Alligators" (1998) Aleksa Palladino, Joely Richardson. (1 hr 26 min)</listing>
-	<listing timeslot="35" type="movie" data2="1" data3="18" data4="0">"The Big Hit"  (1998) Mark Wahlberg, Lou Diamond Phillips. A beleaguered hit man and his associates kidnap a rich industrialist's daughter. (1 hr 32 min)</listing>
+	<listing timeslot="35" rating="R" type="movie" data2="1" data3="18" data4="0">"The Big Hit"  (1998) Mark Wahlberg, Lou Diamond Phillips. A beleaguered hit man and his associates kidnap a rich industrialist's daughter. (1 hr 32 min)</listing>
 	<listing timeslot="38" type="movie" data2="1" data3="7" data4="0">( 9:35) "Witness to the Execution" (1994) Tim Daly, Sean Young. Satire in which a cable exec plans a live telecast of an execution. (1 hr 32 min)</listing>
 	<listing timeslot="39" type="movie" data2="1" data3="7" data4="0">"Execution of Justice" (1999) Tim Daly, Peter Coyote. A dramatization of the 1978 murders of Harvey Milk and George Moscone. (1 hr 43 min)</listing>
 	<listing timeslot="42" type="1" data2="34" data3="0" data4="0">(11:45) Hoop Life</listing>
 	<listing timeslot="44" type="movie" data2="1" data3="18" data4="0">(12:35) "Deadly Currency" (1994) William Smith, Deron McBee. Gamblers prepare for the biggest wagering day of the year: Super Bowl Sunday. (1 hr 29 min)</listing>
-	<listing timeslot="47" type="movie" data2="1" data3="18" data4="0">( 2:05) "Foxtrap"  (1986) Fred Williamson, Chris Connelly. Derivative tale about a hired enforcer looking for a missing girl in Europe. (1 hr 29 min)</listing>
+	<listing timeslot="47" rating="R" type="movie" data2="1" data3="18" data4="0">( 2:05) "Foxtrap"  (1986) Fred Williamson, Chris Connelly. Derivative tale about a hired enforcer looking for a missing girl in Europe. (1 hr 29 min)</listing>
 
 	<notice>Get our Showtime Value Package - Showtime, Sundance Channel and The Movie Channel for only $10.95 per month. Call (800)555-9485 to subscribe.</notice>
 </channel>
@@ -557,14 +557,14 @@
 	<listing timeslot="20" type="1" data2="34" data3="0" data4="0">Between the Lines</listing>
 	<listing timeslot="21" type="movie" data2="1" data3="4" data4="0">"Buffet Froid" (1979) Gerard Depardieu, Bernard Blier. Absurdist comedy about strangers who become partners in murder. (1 hr 35 min)</listing>
 	<listing timeslot="24" type="movie" data2="1" data3="7" data4="0">"Midnight" (1998) Luis Carlos Vasconcelos, Fernanda Torres. An escaped prisoner and an abandoned, scorned woman meet. (1 hr 5 min)</listing>
-	<listing timeslot="26" type="movie" data2="1" data3="18" data4="0">( 3:45) "The Hit"  (1984) Terence Stamp, John Hurt. Existential gangster melodrama that focuses on a mob informer. (1 hr 40 min)</listing>
+	<listing timeslot="26" rating="R" type="movie" data2="1" data3="18" data4="0">( 3:45) "The Hit"  (1984) Terence Stamp, John Hurt. Existential gangster melodrama that focuses on a mob informer. (1 hr 40 min)</listing>
 	<listing timeslot="30" type="1" data2="34" data3="0" data4="0">Between the Lines</listing>
 	<listing timeslot="31" type="movie" data2="1" data3="6" data4="0">"Nico Icon" (1996) Intriguing portrait of the German singer Nico. (1 hr 15 min)</listing>
 	<listing timeslot="33" type="movie" data2="1" data3="7" data4="0" rating="TV-PG">( 7:25) "Voyage to the Beginning of the World"  (1998) Marcello Mastroianni, Jean Yves Gautier. An aging director returns to the village where he grew up. (1 hr 31 min)</listing>
 	<listing timeslot="37" type="movie" data2="1" data3="6" data4="0" rating="G">"For All Mankind"  (1989) Compiled from NASA footage of the Apollo moon missions between 1968 and 1972. (1 hr 30 min)</listing>
 	<listing timeslot="40" type="movie" data2="1" data3="4" data4="0">"Buffet Froid" (1979) Gerard Depardieu, Bernard Blier. Absurdist comedy about strangers who become partners in murder. (1 hr 35 min)</listing>
-	<listing timeslot="43" type="movie" data2="1" data3="4" data4="0">"French Twist"  (1995) Josiane Balasko, Alain Chabat. A woman and her unfaithful husband's household is upset by a lesbian drifter. (1 hr 40 min)</listing>
-	<listing timeslot="47" type="movie" data2="1" data3="18" data4="0">"The Hit"  (1984) Terence Stamp, John Hurt. Existential gangster melodrama that focuses on a mob informer. (1 hr 40 min)</listing>
+	<listing timeslot="43" rating="R" type="movie" data2="1" data3="4" data4="0">"French Twist"  (1995) Josiane Balasko, Alain Chabat. A woman and her unfaithful husband's household is upset by a lesbian drifter. (1 hr 40 min)</listing>
+	<listing timeslot="47" rating="R" type="movie" data2="1" data3="18" data4="0">"The Hit"  (1984) Terence Stamp, John Hurt. Existential gangster melodrama that focuses on a mob informer. (1 hr 40 min)</listing>
 </channel>
 <channel number="32" name="DISW01">
 	<listing timeslot="19" type="1" data2="19" data3="0" data4="0" rating="Y">Out of the Box </listing>
@@ -592,13 +592,13 @@
 </channel>
 <channel number="33" name="MAXW02">
 	<listing timeslot="19" type="movie" data2="1." data3="8" data4="0" rating="TV-PG">"In the Line of Duty: Kidnapped"  (1995) Dabney Coleman, Timothy Busfield. The FBI hunts for a criminal who's out to ransom two boys he's abducted. (1 hr 33 min)</listing>
-	<listing timeslot="22" type="movie" data2="1" data3="18" data4="0">"The Bounty" … (1984) Mel Gibson, Anthony Hopkins. The classic sea story about mutiny aboard a British ship. (2 hrs 12 min)</listing>
+	<listing timeslot="22" rating="PG" type="movie" data2="1" data3="18" data4="0">"The Bounty"  (1984) Mel Gibson, Anthony Hopkins. The classic sea story about mutiny aboard a British ship. (2 hrs 12 min)</listing>
 	<listing timeslot="26" type="movie" rating="PG-13" data2="1" data3="18" data4="0">( 3:45) "Sphere"  (1998) Dustin Hoffman, Sharon Stone. A team of brilliant thinkers study a mysterious spacecraft on the ocean floor. (2 hrs 14 min)</listing>
-	<listing timeslot="31" type="movie" data2="1" data3="18" data4="0">"Switchback"  (1997) Dennis Quaid, Danny Glover. An FBI agent goes AWOL to find the killer who kidnapped his son. (1 hr 58 min)</listing>
-	<listing timeslot="35" type="movie" data2="1" data3="7" data4="0">"The Ice Storm"  (1997) Kevin Kline, Sigourney Weaver. Ang Lee's slice-of-life about married couples coping with their children. (1 hr 53 min)</listing>
-	<listing timeslot="39" type="movie" data2="1" data3="18" data4="0">"Copycat"  (1995) Sigourney Weaver, Holly Hunter. A vicious serial killer emulates notorious murderers. (2 hrs 4 min)</listing>
-	<listing timeslot="43" type="movie" data2="1" data3="18" data4="0">"Alien Resurrection"  (1997) Sigourney Weaver, Winona Ryder. Ellen Ripley's clone returns to battle more beasts. (1 hr 48 min)</listing>
-	<listing timeslot="46" type="movie" data2="1" data3="1" data4="0">( 1:50) "Hollywood Dreams"  (1993) Kelly Cook, Danny Smith. Adult Movie. (1 hr 19 min)</listing>
+	<listing timeslot="31" rating="R" type="movie" data2="1" data3="18" data4="0">"Switchback"  (1997) Dennis Quaid, Danny Glover. An FBI agent goes AWOL to find the killer who kidnapped his son. (1 hr 58 min)</listing>
+	<listing timeslot="35" rating="R" type="movie" data2="1" data3="7" data4="0">"The Ice Storm"  (1997) Kevin Kline, Sigourney Weaver. Ang Lee's slice-of-life about married couples coping with their children. (1 hr 53 min)</listing>
+	<listing timeslot="39" rating="R" type="movie" data2="1" data3="18" data4="0">"Copycat"  (1995) Sigourney Weaver, Holly Hunter. A vicious serial killer emulates notorious murderers. (2 hrs 4 min)</listing>
+	<listing timeslot="43" rating="R" type="movie" data2="1" data3="18" data4="0">"Alien Resurrection"  (1997) Sigourney Weaver, Winona Ryder. Ellen Ripley's clone returns to battle more beasts. (1 hr 48 min)</listing>
+	<listing timeslot="46" rating="R" type="movie" data2="1" data3="1" data4="0">( 1:50) "Hollywood Dreams"  (1993) Kelly Cook, Danny Smith. Adult Movie. (1 hr 19 min)</listing>
 </channel>
 <channel number="34" name="KMEX">
 	<listing timeslot="19" type="9" data2="34" data3="0" data4="0">Enamorada</listing>
@@ -732,7 +732,7 @@
 	<listing timeslot="35" type="1" data2="34" data3="0" data4="0">True Life</listing>
 	<listing timeslot="36" type="1" data2="34" data3="0" data4="0">True Life</listing>
 	<listing timeslot="37" type="1" data2="34" data3="0" data4="0">Scared Straight! </listing>
-	<listing timeslot="99" type="3" data2=".1" data3="3" data4=".">. rating="TV-PG"0.Road Rules </listing>
+	<listing timeslot="99" type="3" data2=".1" data3="3" data4="." rating="TV-PG">Road Rules </listing>
 	<listing timeslot="40" type="1" data2="34" data3="0" data4="0" rating="TV-PG">Road Rules </listing>
 	<listing timeslot="41" type="1" data2="34" data3="0" data4="0">Loveline</listing>
 	<listing timeslot="43" type="1" data2="34" data3="0" data4="0">Sex in the '90s</listing>
@@ -994,7 +994,7 @@
 	<listing timeslot="1" type="1" data2="0" data3="0" data4="0">Public, Educational &amp; Governmental Access</listing>
 </channel>
 <channel number="58" name="PBS243">
-	<listing timeslot="43" type="1" data2=".1" data3="3" data4=".">.0.In Focus</listing>
+	<listing timeslot="43" type="1" data2=".1" data3="3" data4="0">In Focus</listing>
 	<listing timeslot="20" type="1" data2="19" data3="0" data4="0" rating="Y">Wishbone </listing>
 	<listing timeslot="21" type="1" data2="19" data3="0" data4="0" rating="Y">Arthur </listing>
 	<listing timeslot="22" type="1" data2="34" data3="0" data4="0">World of Work ( 1:45) Power of Place</listing>
@@ -1279,29 +1279,29 @@
 	<listing timeslot="25" type="1" data2="22" data3="0" data4="0">The Weather Channel</listing>
 </channel>
 <channel number="96" name="SPI001">
-	<listing timeslot="18" type="movie" data2="1" data3="1" data4="0">"Extreme Close Up: Taylor Hayes" (1 hr 30 min)</listing>
-	<listing timeslot="21" type="movie" data2="1" data3="1" data4="0">"Bodyslammin' 2: Down &amp; Dirty" (1 hr 30 min)</listing>
-	<listing timeslot="24" type="movie" data2="1" data3="1" data4="0">"PU Lines: Water Beauties" (1999) (1 hr 30 min)</listing>
-	<listing timeslot="27" type="movie" data2="1" data3="1" data4="0">"Talk Dirty to Me #11" (1999) (1 hr 30 min)</listing>
-	<listing timeslot="30" type="movie" data2="1" data3="1" data4="0">"Naughty Angels" (1999) (1 hr 30 min)</listing>
-	<listing timeslot="33" type="movie" data2="1" data3="1" data4="0">"Sex Safari" (1999) (1 hr 30 min)</listing>
-	<listing timeslot="36" type="movie" data2="1" data3="1" data4="0">"Dangerous Lady" (1998) (1 hr 30 min)</listing>
-	<listing timeslot="39" type="movie" data2="1" data3="1" data4="0">"Couch Tales" (1999) (1 hr 30 min)</listing>
-	<listing timeslot="42" type="movie" data2="1" data3="1" data4="0">"Extreme Close Up: Taylor Hayes" (1 hr 30 min)</listing>
-	<listing timeslot="45" type="movie" data2="1" data3="1" data4="0">"Bodyslammin' 2: Down &amp; Dirty" (1 hr 30 min)</listing>
-	<listing timeslot="48" type="movie" data2="1" data3="1" data4="0">"PU Lines: Water Beauties" (1999) (1 hr 30 min)</listing>
+	<listing timeslot="18" type="movie" rating="adult" data2="1" data3="1" data4="0">"Extreme Close Up: Taylor Hayes"  (1 hr 30 min)</listing>
+	<listing timeslot="21" type="movie" rating="adult" data2="1" data3="1" data4="0">"Bodyslammin' 2: Down &amp; Dirty"  (1 hr 30 min)</listing>
+	<listing timeslot="24" type="movie" rating="adult" data2="1" data3="1" data4="0">"PU Lines: Water Beauties" (1999)  (1 hr 30 min)</listing>
+	<listing timeslot="27" type="movie" rating="adult" data2="1" data3="1" data4="0">"Talk Dirty to Me #11" (1999)  (1 hr 30 min)</listing>
+	<listing timeslot="30" type="movie" rating="adult" data2="1" data3="1" data4="0">"Naughty Angels" (1999)  (1 hr 30 min)</listing>
+	<listing timeslot="33" type="movie" rating="adult" data2="1" data3="1" data4="0">"Sex Safari" (1999)  (1 hr 30 min)</listing>
+	<listing timeslot="36" type="movie" rating="adult" data2="1" data3="1" data4="0">"Dangerous Lady" (1998)  (1 hr 30 min)</listing>
+	<listing timeslot="39" type="movie" rating="adult" data2="1" data3="1" data4="0">"Couch Tales" (1999)  (1 hr 30 min)</listing>
+	<listing timeslot="42" type="movie" rating="adult" data2="1" data3="1" data4="0">"Extreme Close Up: Taylor Hayes"  (1 hr 30 min)</listing>
+	<listing timeslot="45" type="movie" rating="adult" data2="1" data3="1" data4="0">"Bodyslammin' 2: Down &amp; Dirty"  (1 hr 30 min)</listing>
+	<listing timeslot="48" type="movie" rating="adult" data2="1" data3="1" data4="0">"PU Lines: Water Beauties" (1999)  (1 hr 30 min)</listing>
 
 	<notice>Spice will feature an alternate audio feed (music) between the hours of 6am-10pm. This is to comply with Section 505 of the 1996 Telecommunications Act</notice>
 </channel>
 <channel number="97" name="YV1002">
-	<listing timeslot="18" type="movie" data2="1." data3="." data4=".">The Blair Witch Project"  (1999) Heather Donahue, Michael Williams. Independent hit about student filmmakers who are terrorized in the forest. (1 hr 21 min)</listing>
+	<listing timeslot="18" rating="R" type="movie" data2="1." data3="." data4=".">The Blair Witch Project"  (1999) Heather Donahue, Michael Williams. Independent hit about student filmmakers who are terrorized in the forest. (1 hr 21 min)</listing>
 	<listing timeslot="21" type="movie" rating="PG-13" data2="1" data3="4" data4="0">"10 Things I Hate About You"  (1999) Heath Ledger, Julia Stiles. A popular high-schooler is forbidden to date until her sister finds a beau. (1 hr 38 min)</listing>
-	<listing timeslot="25" type="movie" data2="1" data3="5" data4="0">"Life"  (1999) Eddie Murphy, Martin Lawrence. Two men are jailed in 1932 Mississippi for a murder they didn't commit. (1 hr 49 min)</listing>
+	<listing timeslot="25" rating="R" type="movie" data2="1" data3="5" data4="0">"Life"  (1999) Eddie Murphy, Martin Lawrence. Two men are jailed in 1932 Mississippi for a murder they didn't commit. (1 hr 49 min)</listing>
 	<listing timeslot="29" type="movie" rating="PG-13" data2="1" data3="5" data4="0">"Life Is Beautiful"  (1998) Roberto Benigni, Nicoletta Braschi. Dubbed version of a tale of a man and his son enduring concentration-camp life. (1 hr 57 min)</listing>
-	<listing timeslot="33" type="movie" data2="1" data3="9" data4="0">"The Blair Witch Project"  (1999) Heather Donahue, Michael Williams. Independent hit about student filmmakers who are terrorized in the forest. (1 hr 21 min)</listing>
-	<listing timeslot="36" type="movie" data2="1" data3="4" data4="0">"Election"  (1999) Matthew Brodderick, Reese Witherspoon. A teacher tries to thwart an overachiever in a high-school election. (1 hr 44 min)</listing>
+	<listing timeslot="33" rating="R" type="movie" data2="1" data3="9" data4="0">"The Blair Witch Project"  (1999) Heather Donahue, Michael Williams. Independent hit about student filmmakers who are terrorized in the forest. (1 hr 21 min)</listing>
+	<listing timeslot="36" rating="R" type="movie" data2="1" data3="4" data4="0">"Election"  (1999) Matthew Brodderick, Reese Witherspoon. A teacher tries to thwart an overachiever in a high-school election. (1 hr 44 min)</listing>
 	<listing timeslot="40" type="movie" rating="PG-13" data2="1" data3="9" data4="0">"The Mummy"  (1999) Brendan Fraser, Rachel Weisz. A treasure-seeker unwittingly unleashes a 3000-year-old mummy. (2 hrs 5 min)</listing>
-	<listing timeslot="45" type="movie" data2="1" data3="18" data4="0">"The Matrix"  (1999) Keanu Reeves, Laurence Fishburne. Dazzling special effects frame a compelling story about a hacker on the run. (2 hrs 28 min)</listing>
+	<listing timeslot="45" rating="R" type="movie" data2="1" data3="18" data4="0">"The Matrix"  (1999) Keanu Reeves, Laurence Fishburne. Dazzling special effects frame a compelling story about a hacker on the run. (2 hrs 28 min)</listing>
 
 	<notice>Order "The Blair Witch Project", "Election", or "Life is Beautiful", this month using Easy Touch Pay Per View and get $1 off the price - pay only $2.95! Watch Sneak Prevue for play dates and times</notice>
 </channel>
