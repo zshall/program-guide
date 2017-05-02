@@ -3,5 +3,5 @@
     "version": "0.1.0",
     "command": "node-sass",
     "isShellCommand": true,
-    "args": ["scss/guide.scss", "css/guide.css"]
+    "args": ["scss/site.scss", "css/site.css"]
 }
