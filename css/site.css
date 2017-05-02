@@ -2,7 +2,6 @@
  * TV Simulator '99
  * Zach Hall, 2017
  */
-/* import scanlines */
 /* REGULAR SCANLINES SETTINGS */
 /* MOVING SCANLINE SETTINGS */
 /* MIXINS */
@@ -40,6 +39,10 @@
   0% {
     background-position: 0 50%; } }
 
+/**
+ * TV Simulator '99
+ * Zach Hall, 2017
+ */
 @font-face {
   font-family: VCR;
   src: url(fonts/VCR_OSD.ttf); }
