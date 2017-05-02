@@ -3,5 +3,32 @@
  * Zach Hall, 2017
  */
 
+@font-face {
+    font-family: VCR;
+    src: url(fonts/VCR_OSD.ttf);
+}
+
+@font-face {
+    font-family: PrevueGrid;
+    src: url(fonts/PrevueGrid.ttf);
+}
+
+/* colors */
+$yellow: #cccc00;
+$white: #aaaaaa;
+$gray: #555555;
+$black: #111111;
+$light-blue: #223388;
+$dark-blue: #000055;
+$darker-blue: #000033;
+
+// http://colorzilla.com/gradient-editor/#3336ac+0,3432da+30,353253+100
+$blue-gradient: linear-gradient(to bottom, rgba(51,54,172,1) 0%,rgba(52,50,218,1) 30%,rgba(53,50,83,1) 100%);
+$red-gradient: linear-gradient(to bottom, rgba(134,44,44,1) 0%, rgba(206,36,52,1) 30%, rgba(75,38,36,1) 100%);
+
 @import 'core/scanlines';
 @import 'core/guide';
+
+.tv .screen {
+    #ch-12 { @import 'channels/012'; }
+}
