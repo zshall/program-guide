@@ -22,7 +22,10 @@
 		<p>The Weather Channel<br/>Ch. 95</p>
 	</ad>
 </ads>
-<channel number="1" name="KCBS">
+<channel number="2" name="HTLNFO">
+	<listing timeslot="1" type="1" data2="0" data3="0" data4="0" continuous="continuous">Hotel Information</listing>
+</channel>
+<channel number="3" name="KCBS">
 	<notice>The Greenhill County public offices will be closed to the public Monday, May 3, 1999 for renovation.</notice>
 	<listing timeslot="19" type="1" data2="22" data3="0" data4="0">News</listing>
 	<listing timeslot="20" type="1" data2="34" data3="0" data4="0">Bold and the Beautiful</listing>
@@ -45,9 +48,6 @@
 	<listing timeslot="46" type="1" data2="22" data3="0" data4="0">( 1:35) News</listing>
 	<listing timeslot="47" type="1" data2="34" data3="0" data4="0">( 2:05) Inside Edition</listing>
 	<listing timeslot="48" type="1" data2="34" data3="0" data4="0">( 2:35) Entertainment Tonight</listing>
-</channel>
-<channel number="2" name="HTLNFO">
-	<listing timeslot="1" type="1" data2="0" data3="0" data4="0" continuous="continuous">Hotel Information</listing>
 </channel>
 <channel number="4" name="KNBC">
 	<listing timeslot="19" type="9" data2="34" data3="0" data4="0">Sunset Beach</listing>
@@ -241,13 +241,8 @@
 	<listing timeslot="46" type="1" data2="34" data3="0" data4="0" rating="TV-PG">M*A*S*H </listing>
 	<listing timeslot="47" type="1" data2="34" data3="0" data4="0">Infomercial</listing>
 </channel>
-<channel number="12" name="PRV">
-	<listing timeslot="15" type="1" data2="0" data3="0" data4="0">Prevue Channel (Cont.)</listing>
-	<listing timeslot="21" type="1" data2="0" data3="0" data4="0">Prevue Channel (Cont.)</listing>
-	<listing timeslot="27" type="1" data2="0" data3="0" data4="0">Prevue Channel (Cont.)</listing>
-	<listing timeslot="33" type="1" data2="0" data3="0" data4="0">Prevue Channel (Cont.)</listing>
-	<listing timeslot="39" type="1" data2="34" data3="0" data4="0">Prevue Channel</listing>
-	<listing timeslot="45" type="1" data2="0" data3="0" data4="0">Prevue Channel (Cont.)</listing>
+<channel number="12" name="PRV" default="default" watchable="watchable">
+	<listing timeslot="1" type="1" data2="0" data3="0" data4="0">Prevue Channel</listing>
 </channel>
 <channel number="13" name="UPN006">
 	<listing timeslot="19" type="1" data2="34" data3="0" data4="0">Ricki Lake</listing>
