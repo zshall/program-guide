@@ -12,28 +12,6 @@ const maxHeight = 1000;
 let adList = [];
 let currentAd = 0;
 
-// http://stackoverflow.com/a/18508235/970180
-const isMobile = {
-    Android: function() {
-        return navigator.userAgent.match(/Android/i);
-    },
-    BlackBerry: function() {
-        return navigator.userAgent.match(/BlackBerry/i);
-    },
-    iOS: function() {
-        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-    },
-    Opera: function() {
-        return navigator.userAgent.match(/Opera Mini/i);
-    },
-    Windows: function() {
-        return navigator.userAgent.match(/IEMobile/i);
-    },
-    any: function() {
-        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
-    }
-};
-
 // http://stackoverflow.com/a/18751691/970180
 function handleResize() {
     var $window = $(window);
@@ -63,7 +41,7 @@ $(document).ready(() => {
         $('.date').text(moment().format('dddd MMMM D YYYY'));
     });
 
-    if( !isMobile.any() ){
+    if( !Helpers.isMobile().any() ){
         $(window).resize(function() {
             handleResize();
         });
