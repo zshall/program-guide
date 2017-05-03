@@ -1,6 +1,9 @@
-/**
+/*
  * TV Simulator '99
- * Zach Hall, 2017
+ * @Author: zshall 
+ * @Date: 2017-05-02 22:34:58 
+ * @Last Modified by: zshall
+ * @Last Modified time: 2017-05-02 22:35:28
  */
 const maxWidth = 1200;
 const maxHeight = 1000;

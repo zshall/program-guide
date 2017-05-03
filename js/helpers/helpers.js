@@ -1,3 +1,9 @@
+/*
+ * @Author: zshall 
+ * @Date: 2017-05-02 22:35:50 
+ * @Last Modified by:   zshall 
+ * @Last Modified time: 2017-05-02 22:35:50 
+ */
 class Helpers {
     // http://stackoverflow.com/a/18508235/970180
     static isMobile() {

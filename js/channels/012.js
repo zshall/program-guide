@@ -1,3 +1,9 @@
+/*
+ * @Author: zshall 
+ * @Date: 2017-05-02 22:34:46 
+ * @Last Modified by:   zshall 
+ * @Last Modified time: 2017-05-02 22:34:46 
+ */
 class Channel12 extends Channel {
     constructor(container, guideData) {
         super(container, guideData);
@@ -6,14 +12,12 @@ class Channel12 extends Channel {
         this.adList = [];
         this.currentAd = 0;
         this.adInterval = null;
-        this.timeInterval = null;
     }
 
     show() {
         super.show();
         // marquee
-        this.marquee = $('marquee');
-        this.marquee.marquee();
+        this.marquee = $('marquee').marquee();
 
         // marquee just messes with everything, even this new JS version. replaces all my references to container stuff with new ones
         // gotta redeclare here
@@ -28,7 +32,7 @@ class Channel12 extends Channel {
         this.timePlus60 = this.container.find('.time-plus60');
         this.date = this.container.find('.date');
 
-        this.timeInterval = setInterval(() => {
+        this.intervals.timeInterval = setInterval(() => {
             this.realtime.text(moment().format('h:mm:ss'));
             this.timePlus00.text(moment().startOf('hour').format('h:mm A'));
             this.timePlus30.text(moment().startOf('hour').minutes(30).format('h:mm A'));
@@ -132,7 +136,7 @@ class Channel12 extends Channel {
         if (this.adList.length <= 1) return;
 
         this.videoLeft.fadeOut(() => {
-            setTimeout(() => {
+            this.timeouts.nextAd = setTimeout(() => {
                 if (this.currentAd+1 >= this.adList.length) {
                     this.currentAd = 0;
                 } else {
@@ -143,5 +147,10 @@ class Channel12 extends Channel {
                 this.videoLeft.fadeIn();
             }, 750);
         });
+    }
+
+    teardown() {
+        this.marquee.trigger('stop');
+        super.teardown();
     }
 }
