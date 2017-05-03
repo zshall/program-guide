@@ -3,31 +3,15 @@
  * @Author: zshall 
  * @Date: 2017-05-02 22:34:58 
  * @Last Modified by: zshall
- * @Last Modified time: 2017-05-02 23:32:17
+ * @Last Modified time: 2017-05-03 00:14:53
  */
 const maxWidth = 1200;
 const maxHeight = 1000;
+const warmupTime = 3000;
+var firstStart = true;
 const classes = {
     Channel12
 };
-
-// http://stackoverflow.com/a/18751691/970180
-function handleResize() {
-    var $window = $(window);
-    var width = $window.width();
-    var height = $window.height();
-    var scale;
-
-    // early exit
-    if(width >= maxWidth && height >= maxHeight) {
-        $('.tv').css({'transform': ''});
-        return;
-    }
-
-    scale = Math.min(width/maxWidth, height/maxHeight);
-
-    $('.tv').css({'transform': 'scale(' + scale + ')'});
-}
 
 $(document).ready(() => {
     if( !Helpers.isMobile().any() ){
@@ -66,17 +50,40 @@ function onYouTubeIframeAPIReady() {
         dataType: 'xml',
         complete: (data, status) => {
             window.guideData = $($.parseXML(data.responseText));
-            showChannel(12);
+            var defaultChannel = guideData.find('channel[watchable][default]').attr('number');
+            if (undefined != defaultChannel && null != defaultChannel) {
+                showChannel(defaultChannel);
+            }
         }
     });
 }
 
-function showChannel(number) {
+function showChannel(number, callback) {
     if (window.channel) {
         window.channel.teardown();
     }
-    $('.current-channel').attr('id', `ch-${number}`).load(`channels/${Helpers.padLeft(number, 3)}/channel.html`, () => {
+    $('.current-channel').css('opacity', '0').attr('id', `ch-${number}`).load(`channels/${Helpers.padLeft(number, 3)}/channel.html`, () => {
         window.channel = new classes['Channel' + number]($('.current-channel'), window.guideData);
         channel.show();
+        $('.current-channel').animate({opacity: 1}, firstStart ? warmupTime : warmupTime / 10);
+        firstStart = false;
     });
+}
+
+// http://stackoverflow.com/a/18751691/970180
+function handleResize() {
+    var $window = $(window);
+    var width = $window.width();
+    var height = $window.height();
+    var scale;
+
+    // early exit
+    if(width >= maxWidth && height >= maxHeight) {
+        $('.tv').css({'transform': ''});
+        return;
+    }
+
+    scale = Math.min(width/maxWidth, height/maxHeight);
+
+    $('.tv').css({'transform': 'scale(' + scale + ')'});
 }
