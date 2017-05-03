@@ -22,7 +22,4 @@ class Helpers {
             }
         }
     };
-    static x() {
-        return 'y';
-    }
 }

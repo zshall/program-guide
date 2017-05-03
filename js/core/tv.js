@@ -57,7 +57,7 @@ $(document).ready(() => {
         complete: (data, status) => {
             window.guideData = $($.parseXML(data.responseText));
             window.channel = new Channel12($('#ch-12'), window.guideData);
-            channel.load();
+            channel.show();
         }
     });
 });

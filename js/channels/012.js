@@ -1,7 +1,6 @@
-class Channel12 {
+class Channel12 extends Channel {
     constructor(container, guideData) {
-        this.container = container;
-        this.guideData = guideData;
+        super(container, guideData);
         this.curTsStart = 19;
         // ads
         this.adList = [];
@@ -10,7 +9,8 @@ class Channel12 {
         this.timeInterval = null;
     }
 
-    load() {
+    show() {
+        super.show();
         // marquee
         this.marquee = $('marquee');
         this.marquee.marquee();
