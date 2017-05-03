@@ -1,8 +1,8 @@
 /*
  * @Author: zshall 
  * @Date: 2017-05-02 22:34:46 
- * @Last Modified by:   zshall 
- * @Last Modified time: 2017-05-02 22:34:46 
+ * @Last Modified by: zshall
+ * @Last Modified time: 2017-05-02 23:44:52
  */
 class Channel12 extends Channel {
     constructor(container, guideData) {
@@ -16,6 +16,22 @@ class Channel12 extends Channel {
 
     show() {
         super.show();
+
+        player = new YT.Player('ytplayer', {
+            height: '360',
+            width: '425',
+            videoId: 'oemoqEuJdFE',
+            events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+            },
+            playerVars: { 
+                'autoplay': 1,
+                'controls': 0, 
+                'rel' : 0
+            }
+        });
+
         // marquee
         this.marquee = $('marquee').marquee();
 
@@ -24,6 +40,8 @@ class Channel12 extends Channel {
         this.listingGrid = this.container.find('#listing-grid');
         this.videoLeft = this.container.find('.video-left');
         this.videoRight = this.container.find('.video-right');
+
+        this.textLeft = this.videoLeft.find('.inner-box');
 
         // top of table
         this.realtime = this.container.find('.realtime');
@@ -100,7 +118,7 @@ class Channel12 extends Channel {
         });
 
         if (this.adList.length > 0) {
-            this.videoLeft.html(this.adList[0]);
+            this.textLeft.html(this.adList[0]);
         }
 
         this.adInterval = setInterval(() => {
@@ -135,16 +153,15 @@ class Channel12 extends Channel {
     nextAd() {
         if (this.adList.length <= 1) return;
 
-        this.videoLeft.fadeOut(() => {
+        this.textLeft.fadeOut(() => {
             this.timeouts.nextAd = setTimeout(() => {
                 if (this.currentAd+1 >= this.adList.length) {
                     this.currentAd = 0;
                 } else {
                     this.currentAd++;
                 }
-                this.videoLeft.html(this.adList[this.currentAd]);
-
-                this.videoLeft.fadeIn();
+                this.textLeft.html(this.adList[this.currentAd]);
+                this.textLeft.fadeIn();
             }, 750);
         });
     }

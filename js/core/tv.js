@@ -3,10 +3,13 @@
  * @Author: zshall 
  * @Date: 2017-05-02 22:34:58 
  * @Last Modified by: zshall
- * @Last Modified time: 2017-05-02 22:35:28
+ * @Last Modified time: 2017-05-02 23:32:17
  */
 const maxWidth = 1200;
 const maxHeight = 1000;
+const classes = {
+    Channel12
+};
 
 // http://stackoverflow.com/a/18751691/970180
 function handleResize() {
@@ -52,6 +55,10 @@ $(document).ready(() => {
         }
     });
     
+    loadYouTubeAPI();
+});
+
+function onYouTubeIframeAPIReady() {
     // initialize listings grid
     $.ajax({
         type: 'GET',
@@ -59,8 +66,17 @@ $(document).ready(() => {
         dataType: 'xml',
         complete: (data, status) => {
             window.guideData = $($.parseXML(data.responseText));
-            window.channel = new Channel12($('#ch-12'), window.guideData);
-            channel.show();
+            showChannel(12);
         }
     });
-});
+}
+
+function showChannel(number) {
+    if (window.channel) {
+        window.channel.teardown();
+    }
+    $('.current-channel').attr('id', `ch-${number}`).load(`channels/${Helpers.padLeft(number, 3)}/channel.html`, () => {
+        window.channel = new classes['Channel' + number]($('.current-channel'), window.guideData);
+        channel.show();
+    });
+}
