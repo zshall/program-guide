@@ -85,10 +85,13 @@ body {
             }
             #tvm-top-right {
                 position: absolute;
-                top: 128;
-                right: 169;
+                top: 160;
+                right: 230;
                 z-index: 50;
                 text-align: right;
+                font-size: 3em;
+                color: $yellow;
+                font-family: VCR;
             }
         }
     }

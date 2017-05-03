@@ -115,10 +115,13 @@ body {
     color: #cccc00; }
   .tv .screen .tv-messages #tvm-top-right {
     position: absolute;
-    top: 128;
-    right: 169;
+    top: 160;
+    right: 230;
     z-index: 50;
-    text-align: right; }
+    text-align: right;
+    font-size: 3em;
+    color: #cccc00;
+    font-family: VCR; }
 
 .tv .screen #ch-12 .video-right {
   position: absolute;
