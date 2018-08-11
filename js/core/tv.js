@@ -66,7 +66,7 @@
         }
 
         $('#tvm-top-right').css('opacity', '0');
-        $('.current-channel').css('opacity', '0').attr('id', `ch-${number}`).load(`channels/${Helpers.padLeft(number, 3)}/channel.html`, () => {
+        $('.current-channel').css('opacity', '0').attr('id', `ch-${number}`).load(`channels/${Helpers.padLeft(number, 3)}/layout.html`, () => {
             this.channel = new this.classes['Channel' + number]($('.current-channel'), window.guideData);
             this.channel.show();
             $('.current-channel, #tvm-top-right').animate({opacity: 1}, this.firstStart ? this.warmupTime : this.warmupTime / 10, 0, () => {
