@@ -10,7 +10,7 @@ class Channel12 extends Channel {
         // ads
         this.adList = [];
         this.currentAd = 0;
-        this.adInterval = null;
+        this.defaultAdDuration = 30;
     }
 
     show() {
@@ -113,16 +113,22 @@ class Channel12 extends Channel {
 
         // ads
         guideData.find('ad').each((i, ad) => {
-            this.adList.push($(ad).html());
+            const parsedAd = $(ad);
+            this.adList.push({
+                content: parsedAd.html(),
+                duration: parseInt(parsedAd.attr('duration') || this.defaultAdDuration)
+            });
         });
 
         if (this.adList.length > 0) {
-            this.textLeft.html(this.adList[0]);
+            this.nextAd();
+        } else {
+            this.textLeft.html("THIS SPACE FOR RENT");
         }
 
-        this.adInterval = setInterval(() => {
-            this.nextAd();
-        }, 30000);
+        // this.adInterval = setInterval(() => {
+        //     this.nextAd();
+        // }, 30000);
     }
 
     generateListing(listing, colspan, timeslot) {
@@ -159,10 +165,14 @@ class Channel12 extends Channel {
                 } else {
                     this.currentAd++;
                 }
-                this.textLeft.html(this.adList[this.currentAd]);
+                this.textLeft.html(this.adList[this.currentAd].content);
                 this.textLeft.fadeIn();
             }, 750);
         });
+
+        setTimeout(() => {
+            this.nextAd();
+        }, this.adList[this.currentAd].duration * 1000);
     }
 
     // YouTube
