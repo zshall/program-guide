@@ -2,7 +2,6 @@
  * @Author: zshall 
  * @Date: 2017-05-02 22:34:46 
  * @Last Modified by: zshall
- * @Last Modified time: 2017-05-02 23:44:52
  */
 class Channel12 extends Channel {
     constructor(container, guideData) {
@@ -17,13 +16,13 @@ class Channel12 extends Channel {
     show() {
         super.show();
 
-        player = new YT.Player('ytplayer', {
+        this.player = new YT.Player('ytplayer', {
             height: '360',
             width: '425',
             videoId: 'oemoqEuJdFE',
             events: {
-            'onReady': onPlayerReady,
-            'onStateChange': onPlayerStateChange
+            'onReady': this.onPlayerReady,
+            'onStateChange': this.onPlayerStateChange
             },
             playerVars: { 
                 'autoplay': 1,
@@ -164,6 +163,22 @@ class Channel12 extends Channel {
                 this.textLeft.fadeIn();
             }, 750);
         });
+    }
+
+    // YouTube
+    // The API will call this function when the video player is ready.
+    onPlayerReady(event) {
+        tv.mute();
+        event.target.playVideo();
+    }
+
+    // Te API calls this function when the player's state changes.
+    //    The function indicates that when playing a video (state=1),
+    //    the player should play for six seconds and then stop.
+    onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING) {
+            console.log('Playing...');
+        }
     }
 
     teardown() {

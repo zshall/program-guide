@@ -2,7 +2,6 @@
  * @Author: zshall 
  * @Date: 2017-05-02 21:49:19 
  * @Last Modified by: zshall
- * @Last Modified time: 2017-05-02 22:05:13
  */
 class Channel {
     constructor(container, guideData) {
@@ -23,6 +22,9 @@ class Channel {
         }
         for (var i in this.intervals) {
             clearInterval(this.intervals[i]);
+        }
+        if (this.player) {
+            YouTubeApi.stopVideo(this.player);
         }
         this.container.empty();
         this.container.attr('id', '');

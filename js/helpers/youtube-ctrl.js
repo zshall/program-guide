@@ -1,35 +1,38 @@
-function loadYouTubeAPI() {
-    var YouTubeAPIScript = document.createElement('script');
+/**
+ * YouTube API
+ */
+class YouTubeApi {
+    static async loadYouTubeAPI() {
+        await Helpers.loadScript("https://www.youtube.com/iframe_api");
+    }
 
-    YouTubeAPIScript.src = "https://www.youtube.com/iframe_api";
-    var firstScriptTag = document.getElementsByTagName('script')[0];
-    firstScriptTag.parentNode.insertBefore(YouTubeAPIScript, firstScriptTag);
-}
+    static restartVideo(player) {
+        YouTubeApi.stopVideo(player);
+        player.playVideo();
+    }
 
-// This function creates an <iframe> (and YouTube player)
-//    after the API code downloads.
-var player;
+    static stopVideo(player) {
+        player.stopVideo();
+    }
 
-// The API will call this function when the video player is ready.
-function onPlayerReady(event) {
-    event.target.playVideo();
-}
+    static toggleMuteVideo(player) {
+        if (player.isMuted()) player.unMute();
+        else player.mute();
+        return !player.isMuted();
+    }
 
-// Te API calls this function when the player's state changes.
-//    The function indicates that when playing a video (state=1),
-//    the player should play for six seconds and then stop.
-function onPlayerStateChange(event) {
-    if (event.data == YT.PlayerState.PLAYING) {
-        console.log('Playing...');
+    static muteVideo(player) {
+        player.mute();
+    }
+
+    static unmuteVideo(player) {
+        player.unMute();
     }
 }
 
-function stopVideo() {
-    player.stopVideo();
-}
-
-function muteVideo() {
-    if (player.isMuted()) player.unMute();
-    else player.mute();
-    return !player.isMuted();
+/**
+ * Loading the default channel relies on the YouTube API being ready
+ */
+function onYouTubeIframeAPIReady() {
+    document.dispatchEvent(new CustomEvent('youtubeReady', {}));
 }
