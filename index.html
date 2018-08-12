@@ -21,47 +21,12 @@
                 <div id="tvm-top-right"></div>
                 <div id="tvm-bottom-left"></div>
             </div>
-            <div id="ytplayer" class="video-right"></div>
-            <div class="video-left"></div>
-            <div class="guide-container">
-                <table class="guide-table" cellpadding="0" cellspacing="0">
-                    <thead>
-                        <tr>
-                            <th class="realtime">realtime</th>
-                            <th class="time time-plus00"></th>
-                            <th class="time time-plus30"></th>
-                            <th class="time time-plus60"></th>
-                        </tr>
-                    </thead>
-                </table>
-                <marquee direction="up" scrollamount="1" scrolldelay="50" height="250">
-                    <table class="guide-table"  cellpadding="0" cellspacing="0">
-                        <thead>
-                            <tr>
-                                <th class="realtime">realtime</th>
-                                <th class="time time-plus00"></th>
-                                <th class="time time-plus30"></th>
-                                <th class="time time-plus60"></th>
-                            </tr>
-                            <tr>
-                                <td></td>
-                                <td class="date" colspan="3"></td>
-                            </tr>
-                        </thead>
-
-                        <tbody id="listing-grid">
-                            <tr>
-                                <td colspan="4" class="notice">Please Stand By for your local listings. ER007</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </marquee>
-            </div>
+            <div class="current-channel"></div>
         </div>
     </div>
     <div class="about">
         <p class="yellow">TV Simulator '99</p>
-        <p><a href="https://github.com/zshall/program-guide">Version 0.5.3</a></p>
+        <p><a href="https://github.com/zshall/program-guide">Version 0.6</a></p>
         <p>Zach Hall, 2017</p>
         <p class="yellow">Credits</p>
         <p><a href="http://ariweinstein.com/prevue/index.php">Prevue reference software, information, and Curday.dat</a> by <a href="http://ariweinstein.com/">AriX</a>, other Prevue Guide forum members.</p>
@@ -73,10 +38,18 @@
     <script src="lib/jquery-3.2.1.min.js"></script>
     <script src="lib/moment.js"></script>
     <script src="lib/bettermarquee.js"></script>
+    <script src="js/helpers/helpers.js"></script>
+    <script src="js/helpers/youtube-ctrl.js"></script>
+    <script src="js/helpers/channel.js"></script>
 
     <!-- Load application JS -->
-    <script src="js/core/youtube-ctrl.js"></script>
-    <script src="js/core/guide.js"></script>
+    <script src="channels/012/script.js"></script>
+    <script src="js/core/tv.js"></script>
+
+    <script>
+        var tv = new TV();
+        tv.startUp();
+    </script>
 
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
