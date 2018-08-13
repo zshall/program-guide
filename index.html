@@ -13,8 +13,10 @@
 </head>
 <body>
     <div class="tv">
-        <a id="about-button">&nbsp;</a>
-        <a id="tv-mute">&nbsp;</a>
+        <a id="about-button" title="About">&nbsp;</a>
+        <a id="mute-button" class="tv-buttons" title="Mute">&nbsp;</a>
+        <a id="channel-down-button" class="tv-buttons" title="Channel Down">&nbsp;</a>
+        <a id="channel-up-button" class="tv-buttons" title="Channel Up">&nbsp;</a>
         <img class="tv-mask" src="img/tv.png" />
         <div class="screen">
             <div class="tv-messages">
@@ -26,7 +28,7 @@
     </div>
     <div class="about">
         <p class="yellow">TV Simulator '99</p>
-        <p><a href="https://github.com/zshall/program-guide">Version 0.6</a></p>
+        <p><a href="https://github.com/zshall/program-guide">Version 0.7</a></p>
         <p>Zach Hall, 2017</p>
         <p class="yellow">Credits</p>
         <p><a href="http://ariweinstein.com/prevue/index.php">Prevue reference software, information, and Curday.dat</a> by <a href="http://ariweinstein.com/">AriX</a>, other Prevue Guide forum members.</p>
@@ -40,11 +42,12 @@
     <script src="lib/bettermarquee.js"></script>
     <script src="js/helpers/helpers.js"></script>
     <script src="js/helpers/youtube-ctrl.js"></script>
-    <script src="js/helpers/channel.js"></script>
 
     <!-- Load application JS -->
-    <script src="channels/012/script.js"></script>
     <script src="js/core/tv.js"></script>
+    <script src="js/core/channel.js"></script>
+    <script src="channels/012/script.js"></script>
+    <script src="channels/059/script.js"></script>
 
     <script>
         var tv = new TV();

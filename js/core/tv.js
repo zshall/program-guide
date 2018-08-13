@@ -12,8 +12,24 @@
         this.maxHeight = maxHeight;
         this.warmupTime = warmupTime;
         this.firstStart = firstStart;
+
+        // jQuery variables
+        this.vTv = $('.tv');
+
+        this.vAbout = $('.about');
+        this.vScreen = $('.screen');
+        this.vMessagesBottomLeft = $('#tvm-bottom-left');
+        this.vMessagesTopRight = $('#tvm-top-right');
+        this.vCurrentChannel = $('.current-channel');
+
+        this.btnAbout = $('#about-button');
+        this.btnMute = $('#mute-button');
+        this.btnChannelUp = $('#channel-up-button');
+        this.btnChannelDown = $('#channel-down-button');
+
         this.classes = {
-            Channel12
+            Channel12,
+            Channel59
         };
     }
 
@@ -23,20 +39,28 @@
                 $(window).resize(() => {
                     this.handleResize();
                 });
-                $('.screen').addClass('scanlines');
+                this.vScreen.addClass('scanlines');
             }
         
             this.handleResize();
             
             // about
-            $('#about-button').click(() => {
-                $('.about').toggle();
+            this.btnAbout.click(() => {
+                this.vAbout.toggle();
             })
-            $('.about').toggle();
+            this.vAbout.toggle();
         
             // other TV buttons
-            $('#tv-mute').click(() => {
+            this.btnMute.click(() => {
                 this.toggleMute();
+            });
+
+            this.btnChannelDown.click(() => {
+                this.channelDown();
+            });
+
+            this.btnChannelUp.click(() => {
+                this.channelUp();
             });
             
             document.addEventListener('youtubeReady',() => {
@@ -46,8 +70,12 @@
                     url: 'data/guide.xml',
                     dataType: 'xml',
                     complete: (data, status) => {
-                        window.guideData = $($.parseXML(data.responseText));
-                        var defaultChannel = guideData.find('channel[watchable][default]').attr('number');
+                        this.guideData = $($.parseXML(data.responseText));
+                        this.watchableChannels = $.map(this.guideData.find('channel[watchable]'), (x) => {
+                            return parseInt($(x).attr('number'));
+                        });
+                        this.watchableChannels.sort();
+                        var defaultChannel = parseInt(this.guideData.find('channel[watchable][default]').attr('number'));
                         if (undefined != defaultChannel && null != defaultChannel) {
                             this.showChannel(defaultChannel);
                         }
@@ -61,23 +89,36 @@
      }
 
     showChannel(number, callback) {
+        if (number === this.currentChannelNumber) {
+            return;
+        }
+
         if (this.channel) {
             this.channel.teardown();
         }
 
-        $('#tvm-top-right').css('opacity', '0');
-        $('.current-channel').css('opacity', '0').attr('id', `ch-${number}`).load(`channels/${Helpers.padLeft(number, 3)}/layout.html`, () => {
-            this.channel = new this.classes['Channel' + number]($('.current-channel'), window.guideData);
+        this.vMessagesTopRight.css('opacity', '0');
+        this.vCurrentChannel.css('opacity', '0').attr('id', `ch-${number}`).load(`channels/${Helpers.padLeft(number, 3)}/layout.html`, () => {
+            this.channel = new this.classes['Channel' + number](this.vCurrentChannel, this.guideData);
             this.channel.show();
             $('.current-channel, #tvm-top-right').animate({opacity: 1}, this.firstStart ? this.warmupTime : this.warmupTime / 10, 0, () => {
                 this.channel.ready();
             });
-            $('#tvm-top-right').text(Helpers.padLeft(number, 2));
+            this.vMessagesTopRight.text(Helpers.padLeft(number, 2));
             setTimeout(() => {
-                $('#tvm-top-right').text('');
+                this.vMessagesTopRight.text('');
             }, 4000);
             this.firstStart = false;
         });
+        this.currentChannelNumber = number;
+    }
+
+    channelUp() {
+        this.showChannel(Helpers.nextGreaterElement(this.watchableChannels, this.currentChannelNumber));
+    }
+
+    channelDown() {
+        this.showChannel(Helpers.nextLesserElement(this.watchableChannels, this.currentChannelNumber));
     }
 
     toggleMute() {
@@ -97,9 +138,9 @@
 
     afterMute() {
         if (this.muted) {
-            $('#tvm-bottom-left').text('MUTING');
+            this.vMessagesBottomLeft.text('MUTING');
         } else {
-            $('#tvm-bottom-left').text('');
+            this.vMessagesBottomLeft.text('');
         }
     }
 
@@ -112,12 +153,12 @@
 
         // early exit
         if(width >= this.maxWidth && this.height >= this.maxHeight) {
-            $('.tv').css({'transform': ''});
+            this.vTv.css({'transform': ''});
             return;
         }
 
         scale = Math.min(width/this.maxWidth, height/this.maxHeight);
 
-        $('.tv').css({'transform': 'scale(' + scale + ')'});
+        this.vTv.css({'transform': 'scale(' + scale + ')'});
     }
 }

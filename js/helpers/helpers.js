@@ -45,4 +45,32 @@ class Helpers {
             scr.onerror = () => reject(Error('Error loading ' + globalName || scriptUrl));
         });
     }
+
+    static nextGreaterElement(list, current) {
+        if (list.length === 0) {
+            return null;
+        }
+
+        let index = list.indexOf(current);
+        
+        if (list[index+1]) {
+            return list[index+1];
+        } else {
+            return list[0];
+        }
+    }
+
+    static nextLesserElement(list, current) {
+        if (list.length === 0) {
+            return null;
+        }
+
+        let index = list.indexOf(current);
+        
+        if (list[index-1]) {
+            return list[index-1];
+        } else {
+            return list[list.length-1];
+        }
+    }
 }

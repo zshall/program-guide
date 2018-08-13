@@ -45,15 +45,26 @@ body {
         cursor: pointer;
     }
 
-    #tv-mute {
+    .tv-buttons {
         position: absolute;
         border-radius: 50px;
         cursor: pointer;
         z-index: 1000;
-        width: 20px;
-        height: 20px;
-        top: 883;
-        left: 487;
+        width: 24px;
+        height: 24px;
+        top: 880;
+
+        &#mute-button {
+            left: 484;
+        }
+
+        &#channel-down-button {
+            left: 530;
+        }
+
+        &#channel-up-button {
+            left: 576;
+        }
     }
 }
 

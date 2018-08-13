@@ -1009,37 +1009,8 @@
 	<listing timeslot="40" type="1" data2="34" data3="0" data4="0" rating="TV-PG">Great Performances </listing>
 	<listing timeslot="43" type="1" data2="34" data3="0" data4="0">Charlie Horse Music Pizza</listing>
 </channel>
-<channel number="59" name="PUBACC">
-	<listing timeslot="19" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="20" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="21" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="22" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="23" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="24" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="25" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="26" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="27" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="28" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="29" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="30" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="31" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="32" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="33" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="34" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="35" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="36" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="37" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="38" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="39" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="40" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="41" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="42" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="43" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="44" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="45" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="46" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="47" type="1" data2="0" data3="0" data4="0">Public Access</listing>
-	<listing timeslot="48" type="1" data2="0" data3="0" data4="0">Public Access</listing>
+<channel number="59" name="PUBACC" watchable="watchable">
+	<listing timeslot="1" type="1" data2="0" data3="0" data4="0" continuous="continuous">Public Access</listing>
 </channel>
 <channel number="60" name="ETV002">
 	<listing timeslot="19" type="1" data2="34" data3="0" data4="0">News Weekend</listing>

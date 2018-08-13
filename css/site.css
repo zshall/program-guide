@@ -83,15 +83,20 @@ body {
     bottom: -14px;
     border-radius: 50px;
     cursor: pointer; }
-  body #tv-mute {
+  body .tv-buttons {
     position: absolute;
     border-radius: 50px;
     cursor: pointer;
     z-index: 1000;
-    width: 20px;
-    height: 20px;
-    top: 883;
-    left: 487; }
+    width: 24px;
+    height: 24px;
+    top: 880; }
+    body .tv-buttons#mute-button {
+      left: 484; }
+    body .tv-buttons#channel-down-button {
+      left: 530; }
+    body .tv-buttons#channel-up-button {
+      left: 576; }
 
 /* page */
 .tv {

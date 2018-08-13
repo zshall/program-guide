@@ -59,7 +59,7 @@ class Channel12 extends Channel {
 
         this.listingGrid.empty();
         
-        guideData.find('channel').each((i, channel) => {
+        this.guideData.find('channel').each((i, channel) => {
             const ch = $(channel);
             // channel notices
             const notices = $(ch.find('notice'));
@@ -112,7 +112,7 @@ class Channel12 extends Channel {
         });
 
         // ads
-        guideData.find('ad').each((i, ad) => {
+        this.guideData.find('ad').each((i, ad) => {
             const parsedAd = $(ad);
             this.adList.push({
                 content: parsedAd.html(),
@@ -125,10 +125,6 @@ class Channel12 extends Channel {
         } else {
             this.textLeft.html("THIS SPACE FOR RENT");
         }
-
-        // this.adInterval = setInterval(() => {
-        //     this.nextAd();
-        // }, 30000);
     }
 
     generateListing(listing, colspan, timeslot) {
