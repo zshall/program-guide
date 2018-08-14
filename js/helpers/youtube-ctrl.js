@@ -15,9 +15,27 @@ class YouTubeApi {
         player.stopVideo();
     }
 
+    static pauseVideo(player) {
+        player.pauseVideo();
+    }
+
+    static togglePlaying(player) {
+        if (player.getPlayerState() === 1) {
+            player.pauseVideo();
+        } else {
+            player.playVideo();
+        }
+    }
+
     static toggleMuteVideo(player) {
-        if (player.isMuted()) player.unMute();
-        else player.mute();
+        if (!player) {
+            return false;
+        } else if (player.isMuted()) {
+            player.unMute();
+        } else {
+            player.mute();
+        }
+
         return !player.isMuted();
     }
 

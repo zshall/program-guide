@@ -13,11 +13,7 @@
 </head>
 <body>
     <div class="tv">
-        <a id="about-button" title="About">&nbsp;</a>
-        <a id="mute-button" class="tv-buttons" title="Mute">&nbsp;</a>
-        <a id="channel-down-button" class="tv-buttons" title="Channel Down">&nbsp;</a>
-        <a id="channel-up-button" class="tv-buttons" title="Channel Up">&nbsp;</a>
-        <img class="tv-mask" src="img/tv.png" />
+        <img class="tv-mask" src="img/tv.png" usemap="#tv-map" />
         <div class="screen">
             <div class="tv-messages">
                 <div id="tvm-top-right"></div>
@@ -35,6 +31,15 @@
         <p><a href="http://ariweinstein.com/prevue/viewtopic.php?f=2&t=449">New Prevue Fonts</a> by <a href="http://rudyv.io/">rudyvalencia</a></p>
         <p><a href="https://www.youtube.com/watch?v=oemoqEuJdFE">4 Hours of 1990s Commercials</a> by <a href="https://www.youtube.com/channel/UC1IfPxiQ0-vAR02_PQwi-rQ">Vhs Archives</a></p>
     </div>
+
+    <map name="tv-map">
+        <area alt="Mute" title="Mute" id="mute-button" href="#mute" coords="495,892,15" shape="circle" tabindex="1">
+        <area alt="Channel Down" title="Channel Down" id="channel-down-button" href="#channel-down" coords="540,892,15" shape="circle" tabindex="2">
+        <area alt="Channel Up" title="Channel Up" id="channel-up-button" href="#channel-up" coords="587,892,15" shape="circle" tabindex="3">
+        <area alt="Play / Pause" title="Play / Pause" id="play-pause-button" href="#play-pause" coords="632,892,15" shape="circle">
+        <area alt="Volume Up" title="Volume Up" href="#volume-up" coords="678,892,15" shape="circle">
+        <area alt="Power" title="Power" href="#power" id="about-button" coords="830,892,28" shape="circle">
+    </map>
 
     <!-- Load JS libraries -->
     <script src="lib/jquery-3.2.1.min.js"></script>

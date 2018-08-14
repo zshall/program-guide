@@ -178,6 +178,10 @@ class Channel12 extends Channel {
         event.target.playVideo();
     }
 
+    playPause() {
+        YouTubeApi.togglePlaying(this.player);
+    }
+
     // Te API calls this function when the player's state changes.
     //    The function indicates that when playing a video (state=1),
     //    the player should play for six seconds and then stop.

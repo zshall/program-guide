@@ -8,6 +8,8 @@
 
  class TV {
     constructor(maxWidth = 1200, maxHeight = 1000, warmupTime = 3000, firstStart = true) {
+        window.ondragstart = function() { return false; }
+        
         this.maxWidth = maxWidth;
         this.maxHeight = maxHeight;
         this.warmupTime = warmupTime;
@@ -26,6 +28,7 @@
         this.btnMute = $('#mute-button');
         this.btnChannelUp = $('#channel-up-button');
         this.btnChannelDown = $('#channel-down-button');
+        this.btnPlayPause = $('#play-pause-button');
 
         this.classes = {
             Channel12,
@@ -53,14 +56,22 @@
             // other TV buttons
             this.btnMute.click(() => {
                 this.toggleMute();
+                return false;
             });
 
             this.btnChannelDown.click(() => {
                 this.channelDown();
+                return false;
             });
 
             this.btnChannelUp.click(() => {
                 this.channelUp();
+                return false;
+            });
+
+            this.btnPlayPause.click(() => {
+                this.channelPlayPause();
+                return false;
             });
             
             document.addEventListener('youtubeReady',() => {
@@ -111,6 +122,7 @@
             this.firstStart = false;
         });
         this.currentChannelNumber = number;
+        window.location.hash = this.currentChannelNumber;
     }
 
     channelUp() {
@@ -119,6 +131,12 @@
 
     channelDown() {
         this.showChannel(Helpers.nextLesserElement(this.watchableChannels, this.currentChannelNumber));
+    }
+
+    channelPlayPause() {
+        if (this.channel) {
+            this.channel.playPause();
+        }
     }
 
     toggleMute() {

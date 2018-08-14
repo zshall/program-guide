@@ -33,4 +33,7 @@ class Channel {
         this.container.empty();
         this.container.attr('id', '');
     }
+
+    playPause() {
+    }
 }
