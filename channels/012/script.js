@@ -19,7 +19,7 @@ class Channel12 extends Channel {
         this.player = new YT.Player('ytplayer', {
             height: '360',
             width: '425',
-            videoId: 'oemoqEuJdFE',
+            videoId: '9NSVU4Gv_wA',
             events: {
             'onReady': this.onPlayerReady,
             'onStateChange': this.onPlayerStateChange
@@ -178,7 +178,6 @@ class Channel12 extends Channel {
     // YouTube
     // The API will call this function when the video player is ready.
     onPlayerReady(event) {
-        tv.mute();
         event.target.playVideo();
     }
 
