@@ -1,0 +1,98 @@
+/**
+ * TV Simulator '99
+ * Zach Hall, 2017
+ */
+
+body {
+    background: $black;
+    color: $white;
+    -webkit-text-stroke: 1px $black;
+    margin: 0;
+    padding: 0;
+
+    & * {
+        font-family: "PrevueGrid";
+        font-size: 30px;
+    }
+
+    a, a:visited {
+        color: $light-blue;
+    }
+
+    a:active, a:hover, .yellow, .time, .channel {
+        color: $yellow;
+    }
+
+    .about {
+        background: $black;
+        border: $white solid 5px;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 1000;
+        padding: 10px;
+        width: 400px;
+    }
+
+    #about-button {
+        position: absolute;
+        right: 346px;
+        z-index: 1000;
+        width: 50px;
+        height: 47px;
+        bottom: -14px;
+        border-radius: 50px;
+        cursor: pointer;
+    }
+
+    #tv-mute {
+        position: absolute;
+        border-radius: 50px;
+        cursor: pointer;
+        z-index: 1000;
+        width: 20px;
+        height: 20px;
+        top: 883;
+        left: 487;
+    }
+}
+
+/* page */
+.tv {
+    position: absolute;
+    width: 1200px;
+    height: 900px;
+    left: -webkit-calc(50% - 600px);
+    transform-origin: top;
+
+    .tv-mask {
+        position: absolute;
+        z-index: 100;
+        width: 100%;
+        pointer-events: none;
+    }
+
+    .screen {
+        .tv-messages {
+            #tvm-bottom-left {
+                position: absolute;
+                left: 250;
+                bottom: 200;
+                font-family: VCR;
+                font-size: 45;
+                z-index: 50;
+                color: $yellow;
+            }
+            #tvm-top-right {
+                position: absolute;
+                top: 160;
+                right: 230;
+                z-index: 50;
+                text-align: right;
+                font-size: 3em;
+                color: $yellow;
+                font-family: VCR;
+            }
+        }
+    }
+}

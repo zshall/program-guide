@@ -2,6 +2,15 @@
  * TV Simulator '99
  * Zach Hall, 2017
  */
+@font-face {
+  font-family: VCR;
+  src: url(fonts/VCR_OSD.ttf); }
+
+@font-face {
+  font-family: PrevueGrid;
+  src: url(fonts/PrevueGrid.ttf); }
+
+/* colors */
 /* REGULAR SCANLINES SETTINGS */
 /* MOVING SCANLINE SETTINGS */
 /* MIXINS */
@@ -43,17 +52,8 @@
  * TV Simulator '99
  * Zach Hall, 2017
  */
-@font-face {
-  font-family: VCR;
-  src: url(fonts/VCR_OSD.ttf); }
-
-@font-face {
-  font-family: PrevueGrid;
-  src: url(fonts/PrevueGrid.ttf); }
-
-/* colors */
 body {
-  background: #000033;
+  background: #111111;
   color: #aaaaaa;
   -webkit-text-stroke: 1px #111111;
   margin: 0;
@@ -115,70 +115,77 @@ body {
     color: #cccc00; }
   .tv .screen .tv-messages #tvm-top-right {
     position: absolute;
-    top: 128;
-    right: 169;
+    top: 160;
+    right: 230;
     z-index: 50;
-    text-align: right; }
-  .tv .screen .video-right {
-    position: absolute;
-    right: 169;
-    top: 128;
-    width: 450;
-    height: 360; }
-  .tv .screen .video-left {
-    position: absolute;
-    top: 128;
-    left: 156;
-    width: 425;
-    height: 360;
-    text-align: center; }
-    .tv .screen .video-left p {
-      padding-left: 50px;
-      line-height: 1.8; }
-  .tv .screen .guide-container {
-    position: absolute;
-    bottom: 100;
-    left: 155;
-    height: 325;
-    background-color: #111111;
-    background-image: url("../img/backdrop.png");
-    background-position: 70px;
-    overflow: hidden; }
-    .tv .screen .guide-container .guide-table {
-      width: 850;
-      height: 240;
-      margin: 0;
-      padding: 0;
-      /* boxes */ }
-      .tv .screen .guide-container .guide-table th, .tv .screen .guide-container .guide-table td {
-        border: solid 5px;
-        border-top-color: #aaaaaa;
-        border-left-color: #aaaaaa;
-        border-bottom-color: #111111;
-        border-right-color: #111111; }
-      .tv .screen .guide-container .guide-table th {
-        background-color: #223388;
-        width: 25%; }
-        .tv .screen .guide-container .guide-table th.realtime {
-          text-align: right; }
-      .tv .screen .guide-container .guide-table td {
-        background: #000055;
-        vertical-align: top;
-        padding: 5px; }
-        .tv .screen .guide-container .guide-table td.movie {
-          background: linear-gradient(to bottom, #3336ac 0%, #3432da 30%, #353253 100%); }
-        .tv .screen .guide-container .guide-table td.summary {
-          background: #555555; }
-        .tv .screen .guide-container .guide-table td.notice {
-          padding-left: 45px;
-          background: linear-gradient(to bottom, #862c2c 0%, #ce2434 30%, #4b2624 100%); }
-        .tv .screen .guide-container .guide-table td.date {
-          text-align: center;
-          color: #cccc00; }
-        .tv .screen .guide-container .guide-table td.channel {
-          text-align: center;
-          padding-left: 2em; }
-        .tv .screen .guide-container .guide-table td .continued-right {
-          -webkit-text-stroke: 0;
-          float: right;
-          vertical-align: middle; }
+    text-align: right;
+    font-size: 3em;
+    color: #cccc00;
+    font-family: VCR; }
+
+.tv .screen #ch-12 .video-right {
+  position: absolute;
+  right: 169;
+  top: 128;
+  width: 450;
+  height: 360; }
+
+.tv .screen #ch-12 .video-left {
+  background: #000033;
+  position: absolute;
+  top: 128;
+  left: 156;
+  width: 425;
+  height: 360;
+  text-align: center; }
+  .tv .screen #ch-12 .video-left p {
+    padding-left: 50px;
+    line-height: 1.8; }
+
+.tv .screen #ch-12 .guide-container {
+  position: absolute;
+  bottom: 100;
+  left: 155;
+  height: 325;
+  background-color: #111111;
+  background-image: url("../img/backdrop.png");
+  background-position: 70px;
+  overflow: hidden; }
+  .tv .screen #ch-12 .guide-container .guide-table {
+    width: 850;
+    height: 240;
+    margin: 0;
+    padding: 0;
+    /* boxes */ }
+    .tv .screen #ch-12 .guide-container .guide-table th, .tv .screen #ch-12 .guide-container .guide-table td {
+      border: solid 5px;
+      border-top-color: #aaaaaa;
+      border-left-color: #aaaaaa;
+      border-bottom-color: #111111;
+      border-right-color: #111111; }
+    .tv .screen #ch-12 .guide-container .guide-table th {
+      background-color: #223388;
+      width: 25%; }
+      .tv .screen #ch-12 .guide-container .guide-table th.realtime {
+        text-align: right; }
+    .tv .screen #ch-12 .guide-container .guide-table td {
+      background: #000055;
+      vertical-align: top;
+      padding: 5px; }
+      .tv .screen #ch-12 .guide-container .guide-table td.movie {
+        background: linear-gradient(to bottom, #3336ac 0%, #3432da 30%, #353253 100%); }
+      .tv .screen #ch-12 .guide-container .guide-table td.summary {
+        background: #555555; }
+      .tv .screen #ch-12 .guide-container .guide-table td.notice {
+        padding-left: 45px;
+        background: linear-gradient(to bottom, #862c2c 0%, #ce2434 30%, #4b2624 100%); }
+      .tv .screen #ch-12 .guide-container .guide-table td.date {
+        text-align: center;
+        color: #cccc00; }
+      .tv .screen #ch-12 .guide-container .guide-table td.channel {
+        text-align: center;
+        padding-left: 2em; }
+      .tv .screen #ch-12 .guide-container .guide-table td .continued-right {
+        -webkit-text-stroke: 0;
+        float: right;
+        vertical-align: middle; }
