@@ -791,20 +791,20 @@
 	<listing timeslot="39" type="1" data2="34" data3="0" data4="0" rating="G">Country Holiday at Walt Disney World </listing>
 	<listing timeslot="41" type="1" data2="34" data3="0" data4="0" rating="TV-PG">Dallas </listing>
 </channel>
-<channel number="46" name="HSN008">
-	<listing timeslot="19" type="1" data2="34" data3="0" data4="0">Holiday Home</listing>
-	<listing timeslot="21" type="1" data2="34" data3="0" data4="0">Carolyn Strauss Collection</listing>
-	<listing timeslot="23" type="1" data2="34" data3="0" data4="0">Allasandra Da Vinci Collection</listing>
-	<listing timeslot="24" type="1" data2="34" data3="0" data4="0">Ready to Wear</listing>
-	<listing timeslot="25" type="1" data2="34" data3="0" data4="0">Innova Cooking</listing>
-	<listing timeslot="27" type="1" data2="34" data3="0" data4="0">Perlier Bath and Body</listing>
-	<listing timeslot="29" type="1" data2="34" data3="0" data4="0">Holiday Home Solutions</listing>
-	<listing timeslot="31" type="1" data2="34" data3="0" data4="0">Gifts of Gold</listing>
-	<listing timeslot="35" type="1" data2="34" data3="0" data4="0">Holiday Home</listing>
-	<listing timeslot="39" type="1" data2="34" data3="0" data4="0">Coin Collector</listing>
-	<listing timeslot="43" type="1" data2="34" data3="0" data4="0">Jerome Alexander</listing>
-	<listing timeslot="45" type="1" data2="34" data3="0" data4="0">Marcasite Jewelry</listing>
-	<listing timeslot="47" type="1" data2="34" data3="0" data4="0">Carolyn Strauss Collection</listing>
+<channel number="46" name="1RU">
+	<listing timeslot="19" type="1" data2="34" data3="0" data4="0">Novosti</listing>
+	<listing timeslot="21" type="1" data2="34" data3="0" data4="0">Fabrika udachi</listing>
+	<listing timeslot="23" type="1" data2="34" data3="0" data4="0">Odnazhdy v Permi</listing>
+	<listing timeslot="24" type="1" data2="34" data3="0" data4="0">Obratnyy otschet</listing>
+	<listing timeslot="25" type="1" data2="34" data3="0" data4="0">Zhadnost</listing>
+	<listing timeslot="27" type="1" data2="34" data3="0" data4="0">Sayt udalen</listing>
+	<listing timeslot="29" type="1" data2="34" data3="0" data4="0">Novosti</listing>
+	<listing timeslot="31" type="1" data2="34" data3="0" data4="0">Vosstaniye ptits</listing>
+	<listing timeslot="35" type="1" data2="34" data3="0" data4="0">Kul'turnyye novosti</listing>
+	<listing timeslot="39" type="1" data2="34" data3="0" data4="0">F'yuzhn-perekhvatchik</listing>
+	<listing timeslot="43" type="1" data2="34" data3="0" data4="0">Rabota Boyyera</listing>
+	<listing timeslot="45" type="1" data2="34" data3="0" data4="0">Vremya</listing>
+	<listing timeslot="47" type="1" data2="34" data3="0" data4="0">Muzyka</listing>
 </channel>
 <channel number="47" name="MSNBC">
 	<listing timeslot="19" type="1" data2="34" data3="0" data4="0">Crosstalk</listing>
@@ -1249,25 +1249,25 @@
 	<listing timeslot="45" type="1" data2="34" data3="0" data4="0" rating="G">History's Mysteries </listing>
 	<listing timeslot="47" type="1" data2="34" data3="0" data4="0" rating="G">Year by Year </listing>
 </channel>
-<channel number="94" name="GOLF">
-	<listing timeslot="27" type="1" data2=".5" data3="0" data4="0">Golf Channel Academy</listing>
-	<listing timeslot="28" type="1" data2=".5" data3="0" data4="0">Golf Central</listing>
-	<listing timeslot="29" type="1" data2=".5" data3="0" data4="0">Golf Talk Live</listing>
-	<listing timeslot="31" type="1" data2=".5" data3="0" data4="0">Golf Channel Academy</listing>
-	<listing timeslot="32" type="1" data2=".5" data3="0" data4="0">Leaderboard Report</listing>
-	<listing timeslot="33" type="1" data2=".5" data3="0" data4="0">Masters Highlights</listing>
-	<listing timeslot="35" type="1" data2=".5" data3="0" data4="0">Golf Central</listing>
-	<listing timeslot="36" type="1" data2=".5" data3="0" data4="0">Golf Channel Academy</listing>
-	<listing timeslot="37" type="1" data2=".5" data3="0" data4="0">Golf Talk Live</listing>
-	<listing timeslot="39" type="1" data2=".5" data3="0" data4="0">Golf Channel Academy</listing>
-	<listing timeslot="40" type="1" data2=".5" data3="0" data4="0">Leaderboard Report</listing>
-	<listing timeslot="41" type="1" data2=".5" data3="0" data4="0">Masters Highlights</listing>
-	<listing timeslot="43" type="1" data2=".5" data3="0" data4="0">Golf Channel Academy</listing>
-	<listing timeslot="44" type="1" data2=".5" data3="0" data4="0">Golf Central</listing>
-	<listing timeslot="45" type="1" data2="34" data3="0" data4="0">Paid Programming</listing>
-	<listing timeslot="46" type="1" data2=".5" data3="0" data4="0">Golf Central</listing>
-	<listing timeslot="47" type="1" data2="34" data3="0" data4="0">Paid Programming</listing>
-	<listing timeslot="48" type="1" data2="34" data3="0" data4="0">Paid Programming</listing>
+<channel number="94" name="INTER">
+	<listing timeslot="27" type="1" data2=".5" data3="0" data4="0">Novyny</listing>
+	<listing timeslot="28" type="1" data2=".5" data3="0" data4="0">Sportyvni novyny</listing>
+	<listing timeslot="29" type="1" data2=".5" data3="0" data4="0">Ukrayinsʹki chasy</listing>
+	<listing timeslot="31" type="1" data2=".5" data3="0" data4="0">Z Ukrayiny v zhytti</listing>
+	<listing timeslot="32" type="1" data2=".5" data3="0" data4="0">Pozhezha Ukrayiny</listing>
+	<listing timeslot="33" type="1" data2=".5" data3="0" data4="0">Poldenʹ z Intera</listing>
+	<listing timeslot="35" type="1" data2=".5" data3="0" data4="0">Kharchova dytyna</listing>
+	<listing timeslot="36" type="1" data2=".5" data3="0" data4="0">Silʹsʹka atmosfera</listing>
+	<listing timeslot="37" type="1" data2=".5" data3="0" data4="0">Perviy Kanal na Inter</listing>
+	<listing timeslot="39" type="1" data2=".5" data3="0" data4="0">Politseysʹki kroky</listing>
+	<listing timeslot="40" type="1" data2=".5" data3="0" data4="0">Zbroya zhyttya</listing>
+	<listing timeslot="41" type="1" data2=".5" data3="0" data4="0">Roky Chaki</listing>
+	<listing timeslot="43" type="1" data2=".5" data3="0" data4="0">Funt Chalmersa</listing>
+	<listing timeslot="44" type="1" data2=".5" data3="0" data4="0">Novyny</listing>
+	<listing timeslot="45" type="1" data2="34" data3="0" data4="0">Sportyvni novyny</listing>
+	<listing timeslot="46" type="1" data2=".5" data3="0" data4="0">Zrostannya milʹyonera</listing>
+	<listing timeslot="47" type="1" data2="34" data3="0" data4="0">Ostannya prohrama peredachi</listing>
+	<listing timeslot="48" type="1" data2="34" data3="0" data4="0">Kinetsʹ peredachi</listing>
 </channel>
 <channel number="95" name="TWC001">
 	<listing timeslot="19" type="1" data2="22" data3="0" data4="0">The Weather Channel</listing>
