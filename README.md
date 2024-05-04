@@ -4,8 +4,10 @@
 
 **Completely redesigned and new version coming soon. Watch this space for updates.**
 
-(AKA Program Guide)
+## 📣 Open call to join the Television Simulator v2 private alpha!
 
-Zach Hall, 2017
+Join our Slack and message me for details.
 
-[Live Site](http://zshall.github.io/program-guide)
+Zach Hall, 2017-2024
+
+[v1 Live Site](http://zshall.github.io/program-guide)
