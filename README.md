@@ -6,6 +6,8 @@
 
 ## 📢 [Public Beta now open!](https://github.com/zshall/program-guide/releases)
 
+Follow development in our [Issue Tracker](https://greenhillplaza.notion.site/Development-Issue-Tracker-4882ca79625948f0af4291d1557dc220).
+
 Please join our Slack workspace and [read the documentation](https://greenhillplaza.notion.site/Television-Simulator-99-c28584f069b94f58a71b5c9fe2484dcb). Thanks for testing!
 
 Zach Hall, 2017-2024
