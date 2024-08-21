@@ -14,4 +14,6 @@ Please join our Slack workspace and [read the documentation](https://greenhillpl
 
 Zach Hall, 2017-2024
 
+[v2 Live Demo Site](https://tvs.gcpw.art)
+
 [v1 Live Site](http://zshall.github.io/program-guide)
