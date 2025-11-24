@@ -4,6 +4,8 @@
 
 [![Join us on Slack!](https://img.shields.io/badge/join_the_community-on_slack-blue)](https://join.slack.com/t/greenhillplaza/shared_invite/zt-2dq8mx6sm-3YnobHETTmxUNE02TOSPRg)
 
+## 📢 Get the new [Television Simulator Launcher](https://docs.tvs.gcpw.art/launcher/get-started/) over at its [GitHub release page](https://github.com/zshall/television-simulator-launcher/releases).
+
 ## 📝 Read the [new documentation](https://docs.tvs.gcpw.art/) (under construction)
 
 ## [Get it today!](https://github.com/zshall/program-guide/releases)
