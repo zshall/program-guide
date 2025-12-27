@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://docs.tvs.gcpw.art/" title="Visit the Project Homepage"><img src="https://gcpw.art/tvs/logo-outline.png" alt="Television Simulator Logo" /></a>
+</p>
+
 # Television Simulator '99
 
 [![Join us on Discord!](https://img.shields.io/badge/join_the_community-on_discord-purple)](https://discord.com/invite/GkVG5yzYe3)
